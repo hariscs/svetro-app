@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import styles from './Navbar.module.css';
-
+import { Button } from '../../components';
 import { images } from '../../constants';
 
 const Navbar = () => {
@@ -10,32 +10,107 @@ const Navbar = () => {
 
 	return (
 		<nav className={styles.navbar}>
-			<div className={styles.logoContainer}>
-				<img src={images.logo} alt='logo' />
-			</div>
+			<div className='container'>
+				<div className={styles.navbar__flex}>
+					<div className={styles.logo__container}>
+						<img src={images.logo} alt='logo' />
+					</div>
 
-			<ul>
-				{['amazon', 'walmart', 'eBay', 'other', 'who We Are', 'contact'].map(
-					(item, i) => (
-						<li key={`link-${i}`}>
-							<div />
-							<NavLink to={`/${item}`}>{item}</NavLink>
+					<ul
+						className={
+							click
+								? `${styles.navbar__menu}`
+								: `${styles.navbar__menu} ${styles.menu__active}`
+						}
+					>
+						<li className={styles.menu__item}>
+							<NavLink
+								to='/amazon'
+								onClick={() => setClick(true)}
+								className={(navData) =>
+									navData.isActive
+										? `${styles.menu__active} ${styles.menu__link}`
+										: `${styles.menu__link}`
+								}
+							>
+								Amazon
+							</NavLink>
 						</li>
-					)
-				)}
-			</ul>
+						<li className={styles.menu__item}>
+							<NavLink
+								to='/wallmart'
+								className={(navData) =>
+									navData.isActive
+										? `${styles.menu__active} ${styles.menu__link}`
+										: `${styles.menu__link}`
+								}
+							>
+								Walmart
+							</NavLink>
+						</li>
+						<li className={styles.menu__item}>
+							<NavLink
+								to='/ebay'
+								className={(navData) =>
+									navData.isActive
+										? `${styles.menu__active} ${styles.menu__link}`
+										: `${styles.menu__link}`
+								}
+							>
+								eBay
+							</NavLink>
+						</li>
+						<li className={styles.menu__item}>
+							<NavLink
+								to='/other'
+								className={(navData) =>
+									navData.isActive
+										? `${styles.menu__active} ${styles.menu__link}`
+										: `${styles.menu__link}`
+								}
+							>
+								Other
+							</NavLink>
+						</li>
+						<li className={styles.menu__item}>
+							<NavLink
+								to='/about'
+								className={(navData) =>
+									navData.isActive
+										? `${styles.menu__active} ${styles.menu__link}`
+										: `${styles.menu__link}`
+								}
+							>
+								Who We Are
+							</NavLink>
+						</li>
+						<li className={styles.menu__item}>
+							<NavLink
+								to='/contact'
+								className={(navData) =>
+									navData.isActive
+										? `${styles.menu__active} ${styles.menu__link}`
+										: `${styles.menu__link}`
+								}
+							>
+								Contact
+							</NavLink>
+						</li>
+					</ul>
 
-			<div className={styles.contact}>
-				<a href='/'>+92 343 441 3578</a>
-				<button>contact btn</button>
-			</div>
+					<div className={styles.contact__flex}>
+						<a href='/'>+92 343 441 3578</a>
+						<Button text='Talk to Us' link='/contact' />
+					</div>
 
-			<div className={styles.mobile_menu}>
-				<img
-					src={click ? images.icon_close : images.hamburger}
-					alt='menu icon'
-					onClick={handleClick}
-				/>
+					<div className={styles.mobile_menu}>
+						<img
+							src={click ? images.hamburger : images.icon_close}
+							alt='menu icon'
+							onClick={handleClick}
+						/>
+					</div>
+				</div>
 			</div>
 		</nav>
 	);

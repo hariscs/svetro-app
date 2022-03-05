@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { images } from '../../constants';
-import styles from '../404/NotFound.module.css';
+import styles from './NotFound.module.css';
 
 const NotFound = () => {
 	return (
