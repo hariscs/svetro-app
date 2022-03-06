@@ -12,9 +12,9 @@ const Navbar = () => {
 		<nav className={styles.navbar}>
 			<div className='container'>
 				<div className={styles.navbar__flex}>
-					<div className={styles.logo__container}>
+					<NavLink to='/' className={styles.logo__container}>
 						<img src={images.logo} alt='logo' />
-					</div>
+					</NavLink>
 
 					<ul
 						className={
@@ -100,7 +100,7 @@ const Navbar = () => {
 
 					<div className={styles.contact__flex}>
 						<a href='/'>+92 343 441 3578</a>
-						<Button text='Talk to Us' link='/contact' />
+						<Button>Talk to Us</Button>
 					</div>
 
 					<div className={styles.mobile_menu}>

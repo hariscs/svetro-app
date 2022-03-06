@@ -1,10 +1,11 @@
+import { NavLink } from 'react-router-dom';
 import styles from './Button.module.css';
 
-const Button = ({ link, text }) => {
+const Button = ({ children }) => {
 	return (
-		<a href={link} className={styles.btn}>
-			{text}
-		</a>
+		<NavLink to='/contact' className={styles.btn}>
+			{children}
+		</NavLink>
 	);
 };
 

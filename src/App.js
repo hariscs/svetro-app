@@ -11,7 +11,7 @@ function App() {
 				<Route path='/amazon' element={<Amazon />} />
 				<Route path='*' element={<Page404 />} />
 			</Routes>
-			<Footer />
+			{/* <Footer /> */}
 		</div>
 	);
 }
