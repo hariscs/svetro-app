@@ -1,14 +1,14 @@
 import React from 'react';
 import { Client } from '../components';
-import { Header, ServiceCards, Stats, TrackRecord } from '../container';
+import { Header, ServiceSection, Stats, TrackRecord } from '../container';
 
 const Home = () => {
 	return (
 		<>
 			<Header />
 			<TrackRecord />
+			<ServiceSection />
 			<Stats />
-			<ServiceCards />
 			<Client />
 		</>
 	);

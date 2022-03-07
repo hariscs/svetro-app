@@ -66,6 +66,7 @@ const TrackRecord = () => {
 						const { id, title, subtitle, icon, bgClr } = data;
 						return (
 							<motion.div
+								key={i}
 								initial='hidden'
 								whileInView='visible'
 								viewport={{ once: true }}
