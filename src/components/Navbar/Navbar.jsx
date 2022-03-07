@@ -5,7 +5,7 @@ import { Button } from '../../components';
 import { images } from '../../constants';
 
 const Navbar = () => {
-	const [click, setClick] = useState(false);
+	const [click, setClick] = useState(true);
 	const handleClick = () => setClick(!click);
 
 	return (

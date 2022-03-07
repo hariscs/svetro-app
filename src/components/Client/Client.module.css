@@ -1,0 +1,31 @@
+.clientsSection {
+	background: #d1e1fa;
+	padding: 1.25rem 0;
+	overflow: hidden;
+}
+
+.clients__flex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.clientsInfo {
+	text-align: center;
+}
+
+.clients__title {
+	font-size: 2rem;
+	margin-bottom: 0.438rem;
+}
+
+.clients__subtitle {
+	font-size: 0.875rem;
+	margin-bottom: 3.25rem;
+}
+
+@media (min-width: 50em) {
+	.clientsSection {
+		padding: 3.125rem 0;
+	}
+}

@@ -1,0 +1,41 @@
+.card {
+	padding: 1rem 0.5rem;
+	display: grid;
+	place-items: center;
+	background: var(--clr-white);
+	border-radius: 16px;
+	box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card__iconContainer {
+	width: 48px;
+	height: 48px;
+	border-radius: 100vh;
+	display: grid;
+	place-items: center;
+	cursor: pointer;
+}
+
+.card__icon {
+	max-width: 35px;
+}
+
+.card__title {
+	margin-block: 0.938rem;
+	font-size: 1.5rem;
+}
+
+.card__subtitle {
+	max-width: 35ch;
+	line-height: 1.4;
+	color: var(--clr-dark-gray);
+}
+
+@media (min-width: 50em) {
+	.card__title {
+		font-size: 1rem;
+	}
+	.card__subtitle {
+		font-size: 0.875rem;
+	}
+}

@@ -1,10 +1,15 @@
 import React from 'react';
-import { Header } from '../container';
+import { Client } from '../components';
+import { Header, ServiceCards, Stats, TrackRecord } from '../container';
 
 const Home = () => {
 	return (
 		<>
 			<Header />
+			<TrackRecord />
+			<Stats />
+			<ServiceCards />
+			<Client />
 		</>
 	);
 };

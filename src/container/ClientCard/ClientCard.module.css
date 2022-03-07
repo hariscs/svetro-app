@@ -1,0 +1,39 @@
+.card {
+	background: var(--clr-white);
+	padding: 1.5rem;
+	min-width: 350px;
+	border-radius: 16px;
+	animation: slider 25s linear infinite;
+}
+
+.card__text {
+	font-size: 0.875rem;
+}
+
+.card__profile {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin-top: 1rem;
+}
+
+.card__infoName {
+	font-size: 0.875rem;
+	margin: 0;
+}
+
+.card__infoPlace {
+	margin-top: -0.2rem;
+	font-size: 0.75rem;
+	color: var(--clr-dark-gray);
+}
+
+@keyframes slider {
+	0% {
+		transform: translate(0, 0);
+	}
+
+	100% {
+		transform: translate(-150%, 0);
+	}
+}

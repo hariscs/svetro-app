@@ -1,0 +1,39 @@
+.trackSection {
+	padding: 2.375rem 0 5.066rem;
+	text-align: center;
+}
+
+.trackSection__title {
+	font-size: 1.75rem;
+	margin-bottom: 1.875rem;
+}
+
+.trackSection__subtitle {
+	font-size: 0.875rem;
+	margin-bottom: 3.375rem;
+}
+
+.trackSection__cards {
+	display: grid;
+	gap: 3.125rem;
+}
+
+@media (min-width: 50em) {
+	.trackSection__cards {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.trackSection__title {
+		font-size: 1.75rem;
+		margin-bottom: 1.875rem;
+	}
+}
+
+@media (min-width: 80em) {
+	.trackSection {
+		padding: 6.25rem 0 8.063rem;
+	}
+	.trackSection__cards {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
