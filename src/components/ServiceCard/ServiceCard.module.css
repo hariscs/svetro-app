@@ -5,7 +5,24 @@
 	padding: 1rem;
 	border-radius: 10px;
 	color: var(--clr-dark);
+	background: var(--clr-white);
 	max-width: 343px;
+	transition: all 300ms ease-in;
+}
+
+.card:hover .icon,
+.card:hover span {
+	text-decoration: underline;
+	color: var(--clr-svetro-green);
+}
+
+.card span {
+	font-weight: 700;
+	color: var(--clr-primary);
+}
+
+.card:hover {
+	transform: scale(1.05);
 }
 
 .card__title {
@@ -25,10 +42,13 @@
 }
 
 .icon {
-	border: 1px red solid;
-	border-radius: 100vh;
 	width: 50px;
 	height: 50px;
 	display: grid;
 	place-items: center;
+}
+
+.icon:nth-child(2) {
+	border: 1px solid var(--clr-svetro-green);
+	border-radius: 100vh;
 }

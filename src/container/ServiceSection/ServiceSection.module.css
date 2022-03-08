@@ -1,6 +1,13 @@
 .serviceSection {
 	padding: 2rem 0 4rem;
-	border: 1px solid red;
+}
+
+.serviceSection__flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 2rem;
 }
 
 .serviceSection__info {
@@ -17,9 +24,24 @@
 	margin-inline: auto;
 }
 
+.serviceSection__cards {
+	display: grid;
+	gap: 1.5rem;
+}
+
 @media (min-width: 50em) {
 	.serviceSection__title {
 		font-size: 2.25rem;
 		margin-bottom: 1.938rem;
+	}
+
+	.serviceSection__cards {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 80em) {
+	.serviceSection__cards {
+		grid-template-columns: repeat(4, 1fr);
 	}
 }
