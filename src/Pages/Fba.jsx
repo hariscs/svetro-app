@@ -1,5 +1,11 @@
+import { Header } from '../container';
+
 const Fba = () => {
-	return <div>Fba</div>;
+	return (
+		<>
+			<Header />
+		</>
+	);
 };
 
 export default Fba;

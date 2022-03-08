@@ -1,5 +1,11 @@
+import { Header } from '../container';
+
 const Walmart = () => {
-	return <div>Walmart</div>;
+	return (
+		<>
+			<Header />
+		</>
+	);
 };
 
 export default Walmart;

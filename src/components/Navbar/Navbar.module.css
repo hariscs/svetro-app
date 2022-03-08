@@ -37,9 +37,7 @@
 }
 
 .contact__flex {
-	display: flex;
-	align-items: center;
-	gap: 1rem;
+	display: none;
 }
 
 /* only mobile screens */
@@ -79,5 +77,13 @@
 @media (min-width: 50em) {
 	.mobile_menu {
 		display: none;
+	}
+}
+
+@media (min-width: 80em) {
+	.contact__flex {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
 	}
 }

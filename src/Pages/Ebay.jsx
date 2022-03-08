@@ -1,5 +1,11 @@
+import { Header } from '../container';
+
 const Ebay = () => {
-	return <div>Ebay</div>;
+	return (
+		<>
+			<Header />
+		</>
+	);
 };
 
 export default Ebay;

@@ -1,5 +1,11 @@
+import { Header } from '../container';
+
 const Amazon = () => {
-	return <div>Amazon</div>;
+	return (
+		<>
+			<Header />
+		</>
+	);
 };
 
 export default Amazon;
