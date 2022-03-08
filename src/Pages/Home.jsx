@@ -1,6 +1,12 @@
 import React from 'react';
 import { Client } from '../components';
-import { Header, ServiceSection, Stats, TrackRecord } from '../container';
+import {
+	Consult,
+	Header,
+	ServiceSection,
+	Stats,
+	TrackRecord,
+} from '../container';
 
 const Home = () => {
 	return (
@@ -10,6 +16,7 @@ const Home = () => {
 			<ServiceSection />
 			<Stats />
 			<Client />
+			<Consult />
 		</>
 	);
 };

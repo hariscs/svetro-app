@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import styles from './ServiceCard.module.css';
-import arrow from '../../assets/icons/stick-arrow-right.svg';
+import { images } from '../../constants';
 
 const ServiceCard = ({ icon, title, subtitle, link }) => {
 	return (
@@ -13,7 +13,7 @@ const ServiceCard = ({ icon, title, subtitle, link }) => {
 			<div className={styles.card__linkFlex}>
 				<span>Learn More</span>
 				<span className={styles.icon}>
-					<img src={arrow} alt='icon' />
+					<img src={images.arrow} alt='icon' />
 				</span>
 			</div>
 		</NavLink>

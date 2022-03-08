@@ -1,5 +1,5 @@
 .clientsSection {
-	background: #d1e1fa;
+	background: var(--clr-svetro-light);
 	padding: 1.25rem 0;
 	overflow: hidden;
 }

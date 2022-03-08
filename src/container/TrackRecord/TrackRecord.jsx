@@ -1,6 +1,7 @@
 import styles from './TrackRecord.module.css';
 import Card from '../Card/Card';
 import { motion } from 'framer-motion';
+import { images } from '../../constants';
 
 const card = [
 	{
@@ -8,7 +9,7 @@ const card = [
 		title: 'Excellent project delivery',
 		subtitle:
 			'We have delivered numerous successful projects around the globe to our clients',
-		icon: '/assets/icons/globe.svg',
+		icon: images.globe,
 		bgClr: '#a5c2f5',
 	},
 	{
@@ -16,7 +17,7 @@ const card = [
 		title: 'Customer care card',
 		subtitle:
 			'We have delivered numerous successful projects around the globe to our clients',
-		icon: '/assets/icons/customer-care.svg',
+		icon: images.customer,
 		bgClr: '#FEF1E2',
 	},
 	{
@@ -24,7 +25,7 @@ const card = [
 		title: 'Customer Satifaction',
 		subtitle:
 			'We have delivered numerous successful projects around the globe to our clients',
-		icon: '/assets/icons/handshake.svg',
+		icon: images.handshake,
 		bgClr: '#D3F7E0',
 	},
 	{
@@ -32,7 +33,7 @@ const card = [
 		title: 'Experienced experts',
 		subtitle:
 			'We have delivered numerous successful projects around the globe to our clients',
-		icon: '/assets/icons/expert-analysis.svg',
+		icon: images.expert,
 		bgClr: '#A5C2F5',
 	},
 ];

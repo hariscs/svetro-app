@@ -5,3 +5,4 @@ export { default as Card } from './Card/Card';
 export { default as Stats } from './Stats/Stats';
 export { default as ClientCard } from './ClientCard/ClientCard';
 export { default as ServiceSection } from './ServiceSection/ServiceSection';
+export { default as Consult } from './Consult/Consult';

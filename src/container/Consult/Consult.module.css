@@ -1,0 +1,39 @@
+.consultSection {
+	padding: 8rem 0;
+}
+
+.card__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.card {
+	text-align: center;
+	color: var(--clr-white);
+	background: var(--clr-primary);
+	padding: 2rem;
+	box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 16px;
+	width: 90%;
+	display: grid;
+	gap: 1rem;
+}
+
+.card__subText {
+	max-width: 40ch;
+	margin-inline: auto;
+}
+
+@media (min-width: 80em) {
+	.card {
+		padding: 4.375rem;
+	}
+	.card__text {
+		font-size: 2.25rem;
+	}
+	.card__textsub {
+		font-size: 2.25rem;
+	}
+}

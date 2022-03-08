@@ -7,6 +7,11 @@ import amazon from '../assets/icons/branding.svg';
 import fba from '../assets/icons/partnership.svg';
 import wallmart from '../assets/icons/brand-new.svg';
 import ebay from '../assets/icons/seller.svg';
+import arrow from '../assets/icons/stick-arrow-right.svg';
+import customer from '../assets/icons/customer-care.svg';
+import handshake from '../assets/icons/handshake.svg';
+import expert from '../assets/icons/expert-analysis.svg';
+import globe from '../assets/icons/globe.svg';
 
 export default {
 	hamburger,
@@ -18,4 +23,9 @@ export default {
 	fba,
 	wallmart,
 	ebay,
+	arrow,
+	customer,
+	expert,
+	globe,
+	handshake,
 };

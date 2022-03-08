@@ -1,5 +1,4 @@
 import { ServiceCard } from '../../components';
-
 import styles from './ServiceSection.module.css';
 import { images } from '../../constants';
 
@@ -26,7 +25,7 @@ const serviceData = [
 		title: 'Walmart Private Label',
 		subtitle:
 			'We will lead you to build a firm Amazon Private label account and cater to your needs as your business grows.',
-		link: '/service',
+		link: '/walmart',
 	},
 	{
 		id: 4,
@@ -57,7 +56,6 @@ const ServiceSection = () => {
 					<div className={styles.serviceSection__cards}>
 						{serviceData.map((service) => {
 							const { id, title, subtitle, icon, link } = service;
-
 							return (
 								<ServiceCard
 									key={id}
