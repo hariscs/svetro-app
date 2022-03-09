@@ -12,6 +12,7 @@ import customer from '../assets/icons/customer-care.svg';
 import handshake from '../assets/icons/handshake.svg';
 import expert from '../assets/icons/expert-analysis.svg';
 import globe from '../assets/icons/globe.svg';
+import logofooter from '../assets/onlyLogo.svg';
 
 export default {
 	hamburger,
@@ -28,4 +29,5 @@ export default {
 	expert,
 	globe,
 	handshake,
+	logofooter,
 };

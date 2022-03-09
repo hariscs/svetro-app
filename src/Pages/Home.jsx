@@ -7,6 +7,7 @@ import {
 	Stats,
 	TrackRecord,
 } from '../container';
+import Faq from '../container/Faq/Faq';
 
 const Home = () => {
 	return (
@@ -17,6 +18,7 @@ const Home = () => {
 			<Stats />
 			<Client />
 			<Consult />
+			<Faq />
 		</>
 	);
 };
