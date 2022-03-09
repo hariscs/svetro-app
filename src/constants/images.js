@@ -13,6 +13,10 @@ import handshake from '../assets/icons/handshake.svg';
 import expert from '../assets/icons/expert-analysis.svg';
 import globe from '../assets/icons/globe.svg';
 import logofooter from '../assets/onlyLogo.svg';
+import amazonimg from '../assets/amazon.jpg';
+import ebayimg from '../assets/ebay.jpg';
+import walmartimg from '../assets/walmart.jpg';
+import fbaimg from '../assets/fba.jpg';
 
 export default {
 	hamburger,
@@ -30,4 +34,8 @@ export default {
 	globe,
 	handshake,
 	logofooter,
+	amazonimg,
+	ebayimg,
+	walmartimg,
+	fbaimg,
 };

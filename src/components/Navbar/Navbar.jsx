@@ -38,7 +38,7 @@ const Navbar = () => {
 						</li>
 						<li className={styles.menu__item}>
 							<NavLink
-								to='/wallmart'
+								to='/walmart'
 								className={(navData) =>
 									navData.isActive
 										? `${styles.menu__active} ${styles.menu__link}`
@@ -62,7 +62,7 @@ const Navbar = () => {
 						</li>
 						<li className={styles.menu__item}>
 							<NavLink
-								to='/other'
+								to='/fba'
 								className={(navData) =>
 									navData.isActive
 										? `${styles.menu__active} ${styles.menu__link}`
@@ -74,7 +74,7 @@ const Navbar = () => {
 						</li>
 						<li className={styles.menu__item}>
 							<NavLink
-								to='/about'
+								to='/why'
 								className={(navData) =>
 									navData.isActive
 										? `${styles.menu__active} ${styles.menu__link}`
