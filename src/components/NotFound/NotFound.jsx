@@ -21,12 +21,6 @@ const NotFound = () => {
 						<NavLink to='/' className={`${styles.btn} ${styles.btn__primary}`}>
 							Go Back Home
 						</NavLink>
-						<NavLink
-							to='/services'
-							className={`${styles.btn} ${styles.btn__secondary}`}
-						>
-							Check out Services
-						</NavLink>
 					</div>
 				</div>
 			</div>
