@@ -91,12 +91,20 @@ const Form = () => {
 							/>
 							<label htmlFor='email'>Email</label>
 							<input
-								type='email'
+								type='tel'
 								name='email'
 								id='email'
 								required
 								placeholder='example@email.com'
 							/>
+							<label htmlFor='call'>Phone No.</label>
+							<input
+								type='call'
+								name='number'
+								id='call'
+								placeholder='+92 343 441 3578'
+							/>
+
 							<label htmlFor='email'>Schedule a date</label>
 							<input
 								type='date'

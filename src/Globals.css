@@ -53,6 +53,10 @@ button {
 	font-family: inherit;
 }
 
+section {
+	padding: 2rem 0;
+}
+
 .container {
 	width: 90%;
 	margin-inline: auto;

@@ -39,6 +39,7 @@ const Navbar = () => {
 						<li className={styles.menu__item}>
 							<NavLink
 								to='/walmart'
+								onClick={() => setClick(true)}
 								className={(navData) =>
 									navData.isActive
 										? `${styles.menu__active} ${styles.menu__link}`
@@ -51,6 +52,7 @@ const Navbar = () => {
 						<li className={styles.menu__item}>
 							<NavLink
 								to='/ebay'
+								onClick={() => setClick(true)}
 								className={(navData) =>
 									navData.isActive
 										? `${styles.menu__active} ${styles.menu__link}`
@@ -63,6 +65,7 @@ const Navbar = () => {
 						<li className={styles.menu__item}>
 							<NavLink
 								to='/fba'
+								onClick={() => setClick(true)}
 								className={(navData) =>
 									navData.isActive
 										? `${styles.menu__active} ${styles.menu__link}`
@@ -75,6 +78,7 @@ const Navbar = () => {
 						<li className={styles.menu__item}>
 							<NavLink
 								to='/why'
+								onClick={() => setClick(true)}
 								className={(navData) =>
 									navData.isActive
 										? `${styles.menu__active} ${styles.menu__link}`
@@ -87,6 +91,7 @@ const Navbar = () => {
 						<li className={styles.menu__item}>
 							<NavLink
 								to='/contact'
+								onClick={() => setClick(true)}
 								className={(navData) =>
 									navData.isActive
 										? `${styles.menu__active} ${styles.menu__link}`
