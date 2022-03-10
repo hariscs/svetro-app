@@ -1,14 +1,16 @@
 import styles from './ServiceDetail.module.css';
 import Button from '../Button/Button';
-import { images } from '../../constants';
 import { BsFillCheckCircleFill } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
 
-const ServiceDetail = ({ title, subtitle, img }) => {
+const ServiceDetail = ({ title, subtitle, img, flr }) => {
 	return (
 		<section className={styles.service}>
 			<div className='container'>
-				<div className={styles.service__flex}>
+				<div
+					className={` ${styles.service__flex}`}
+					style={{ flexDirection: flr }}
+				>
 					<div className={styles.service__info}>
 						<h2 className={styles.service__title}>{title}</h2>
 						<p className={styles.service__subtitle}>{subtitle}</p>

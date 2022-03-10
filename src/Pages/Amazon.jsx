@@ -1,4 +1,4 @@
-import { Header } from '../container';
+import { Consult, Header } from '../container';
 import Faq from '../container/Faq/Faq';
 import { images } from '../constants';
 import { ServiceDetail } from '../components';
@@ -24,6 +24,14 @@ const serviceData = [
 		subtitle:
 			'We will take care of your account opening and also manage the account as your users grow. We will make sure that your account scales with your growing business needs. With us, your account is not in danger.',
 		img: images.amazonimg,
+		class: 'row',
+	},
+	{
+		title: 'Account creation and management',
+		subtitle:
+			'We will take care of your account opening and also manage the account as your users grow. We will make sure that your account scales with your growing business needs. With us, your account is not in danger.',
+		img: images.amazonimg,
+		// class: 'row',
 	},
 ];
 
@@ -42,10 +50,12 @@ const Amazon = () => {
 					title={data.title}
 					subtitle={data.subtitle}
 					img={data.img}
+					flr={data.class}
 				/>
 			))}
 
 			<Faq />
+			<Consult />
 		</>
 	);
 };
