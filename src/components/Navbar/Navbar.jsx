@@ -104,7 +104,7 @@ const Navbar = () => {
 					</ul>
 
 					<div className={styles.contact__flex}>
-						<a href='/'>+92 343 441 3578</a>
+						<a href='callto:00923434413578'>+92 343 441 3578</a>
 						<Button btnType={'btn__primary'}>Talk to Us</Button>
 					</div>
 
