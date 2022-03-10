@@ -14,7 +14,7 @@ import {
 function App() {
 	return (
 		<>
-			<Navbar />
+			{/* <Navbar /> */}
 			<Routes>
 				<Route path='/' element={<Home />} />
 				<Route path='/amazon' element={<Amazon />} />
@@ -25,7 +25,7 @@ function App() {
 				<Route path='/why' element={<Why />} />
 				<Route path='*' element={<Page404 />} />
 			</Routes>
-			<Footer />
+			{/* <Footer /> */}
 		</>
 	);
 }

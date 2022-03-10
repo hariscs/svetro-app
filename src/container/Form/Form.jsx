@@ -120,6 +120,11 @@ const Form = () => {
 								placeholder='Message '
 							></textarea>
 							<input type='hidden' name='_captcha' value='false' />
+							<input
+								type='hidden'
+								name='_next'
+								value='https://svetro.netlify.app/'
+							/>
 						</div>
 						<button type='submit'>Send</button>
 					</form>
