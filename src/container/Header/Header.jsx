@@ -9,7 +9,7 @@ const Header = ({ title, subtitle, btnText, img }) => {
 					<div className={styles.header__info}>
 						<h1 className={styles.header__title}>{title}</h1>
 						<h2 className={styles.header__subtitle}>{subtitle}</h2>
-						<Button>{btnText}</Button>
+						<Button btnType={'btn__primary'}>{btnText}</Button>
 					</div>
 					<div className={styles.header__img}>
 						<img src={img} alt='hero' />

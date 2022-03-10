@@ -100,7 +100,7 @@ const Navbar = () => {
 
 					<div className={styles.contact__flex}>
 						<a href='/'>+92 343 441 3578</a>
-						<Button>Talk to Us</Button>
+						<Button btnType={'btn__primary'}>Talk to Us</Button>
 					</div>
 
 					<div className={styles.mobile_menu}>

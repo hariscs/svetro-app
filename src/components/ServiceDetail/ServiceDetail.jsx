@@ -35,7 +35,7 @@ const ServiceDetail = ({ title, subtitle, img }) => {
 							</div>
 						</div>
 
-						<Button>Book this Service</Button>
+						<Button btnType={'btn__green'}>Book this Service</Button>
 					</div>
 					<div className={styles.service__img}>
 						<img src={img} alt='amazon' />
