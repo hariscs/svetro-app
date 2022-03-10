@@ -24,7 +24,7 @@ import scale from '../assets/icons/scale.svg';
 import meeting from '../assets/meeting.jpg';
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default {
+const images = {
 	hamburger,
 	icon_close,
 	logo,
@@ -50,3 +50,5 @@ export default {
 	scale,
 	meeting,
 };
+
+export default images;
