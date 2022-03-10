@@ -91,7 +91,7 @@ const Form = () => {
 							/>
 							<label htmlFor='email'>Email</label>
 							<input
-								type='tel'
+								type='email'
 								name='email'
 								id='email'
 								required
@@ -99,7 +99,7 @@ const Form = () => {
 							/>
 							<label htmlFor='call'>Phone No.</label>
 							<input
-								type='call'
+								type='tel'
 								name='number'
 								id='call'
 								placeholder='+92 343 441 3578'
