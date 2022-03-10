@@ -17,6 +17,7 @@ import amazonimg from '../assets/amazon.jpg';
 import ebayimg from '../assets/ebay.jpg';
 import walmartimg from '../assets/walmart.jpg';
 import fbaimg from '../assets/fba.jpg';
+import contactimg from '../assets/contact.jpg';
 
 export default {
 	hamburger,
@@ -38,4 +39,5 @@ export default {
 	ebayimg,
 	walmartimg,
 	fbaimg,
+	contactimg,
 };
