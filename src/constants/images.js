@@ -22,6 +22,10 @@ import consult from '../assets/icons/consult.svg';
 import optimize from '../assets/icons/optimize.svg';
 import scale from '../assets/icons/scale.svg';
 import meeting from '../assets/meeting.jpg';
+import b1 from '../assets/b1.png';
+import b2 from '../assets/b2.png';
+import g1 from '../assets/g1.png';
+import g2 from '../assets/g2.png';
 
 // eslint-disable-next-line import/no-anonymous-default-export
 const images = {
@@ -49,6 +53,10 @@ const images = {
 	optimize,
 	scale,
 	meeting,
+	b1,
+	b2,
+	g1,
+	g2,
 };
 
 export default images;

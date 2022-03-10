@@ -53,6 +53,7 @@
 .line {
 	margin-top: 3rem;
 	border: 1px solid var(--clr-primary);
+	background: var(--clr-primary);
 }
 
 /* @media (min-width: 50em) {

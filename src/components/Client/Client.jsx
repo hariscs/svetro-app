@@ -1,39 +1,40 @@
 import styles from './Client.module.css';
 import { ClientCard } from '../../container';
+import { images } from '../../constants';
 
 const clientData = [
 	{
 		id: 1,
 		text: "Going into business with Svetro was the best decision I ever made. I'm glad to have come in contact with Svetro, and I would highly recommended.",
-		// img: g2,
+		img: images.g1,
 		name: 'Catherine Buschamp',
 		address: 'Toronto, Canada',
 	},
 	{
 		id: 2,
 		text: "Going into business with Svetro was the best decision I ever made. I'm glad to have come in contact with Svetro, and I would highly recommended.",
-		// img: g1,
+		img: images.b2,
 		name: 'Shaun Duffey',
 		address: 'Toronto, Canada',
 	},
 	{
 		id: 3,
 		text: "Going into business with Svetro was the best decision I ever made. I'm glad to have come in contact with Svetro, and I would highly recommended.",
-		// img: b1,
+		img: images.b1,
 		name: 'Jason Lee',
 		address: 'Toronto, Canada',
 	},
 	{
 		id: 4,
 		text: "Going into business with Svetro was the best decision I ever made. I'm glad to have come in contact with Svetro, and I would highly recommended.",
-		// img: b2,
+		img: images.g2,
 		name: 'Rebecca Maslow',
 		address: 'Toronto, Canada',
 	},
 	{
 		id: 5,
 		text: "Going into business with Svetro was the best decision I ever made. I'm glad to have come in contact with Svetro, and I would highly recommended.",
-		// img: b2,
+		img: images.g2,
 		name: 'Rebecca Maslow',
 		address: 'Toronto, Canada',
 	},
