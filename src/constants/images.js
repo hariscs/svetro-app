@@ -23,6 +23,7 @@ import optimize from '../assets/icons/optimize.svg';
 import scale from '../assets/icons/scale.svg';
 import meeting from '../assets/meeting.jpg';
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
 	hamburger,
 	icon_close,
