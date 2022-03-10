@@ -44,6 +44,13 @@
 	margin-bottom: 1rem;
 }
 
+.service__order__1 {
+	order: 1;
+}
+.service__order__0 {
+	order: 0;
+}
+
 @media (min-width: 80em) {
 	.service__flex {
 		flex-direction: row;

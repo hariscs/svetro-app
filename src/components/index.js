@@ -6,3 +6,4 @@ export { default as Client } from './Client/Client';
 export { default as ServiceCard } from './ServiceCard/ServiceCard';
 export { default as FaqAcc } from './FaqAcc/FaqAcc';
 export { default as ServiceDetail } from './ServiceDetail/ServiceDetail';
+export { default as ProcessCard } from './ProcessCard/ProcessCard';

@@ -1,0 +1,16 @@
+.serviceHeader {
+	text-align: center;
+	padding: 4rem 0;
+}
+
+.serviceHeader__title {
+	margin-bottom: 1rem;
+	font-size: 2rem;
+	max-width: 35ch;
+	margin-inline: auto;
+}
+
+.serviceHeader__subtitle {
+	max-width: 60ch;
+	margin-inline: auto;
+}

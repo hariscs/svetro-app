@@ -1,0 +1,38 @@
+.processSection {
+  padding: 2.375rem 0 5.066rem;
+  text-align: center;
+}
+
+.processSection__title {
+  font-size: 1.75rem;
+  margin-bottom: 1.875rem;
+}
+
+.processSection__title span {
+  color: var(--clr-primary);
+}
+
+.processSection__cards {
+  display: grid;
+  gap: 3.125rem;
+}
+
+@media (min-width: 50em) {
+  .processSection__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .processSection__title {
+    font-size: 1.75rem;
+    margin-bottom: 1.875rem;
+  }
+}
+
+@media (min-width: 80em) {
+  .processSection {
+    padding: 6.25rem 0 8.063rem;
+  }
+  .processSection__cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

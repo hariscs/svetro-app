@@ -7,3 +7,6 @@ export { default as ClientCard } from './ClientCard/ClientCard';
 export { default as ServiceSection } from './ServiceSection/ServiceSection';
 export { default as Consult } from './Consult/Consult';
 export { default as Form } from './Form/Form';
+export { default as ServiceHeader } from './ServiceHeader/ServiceHeader';
+export { default as Process } from './Process/Process';
+export { default as Faq } from './Faq/Faq';

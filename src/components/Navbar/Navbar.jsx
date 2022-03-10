@@ -85,7 +85,7 @@ const Navbar = () => {
 										: `${styles.menu__link}`
 								}
 							>
-								Who We Are
+								Why Svetro
 							</NavLink>
 						</li>
 						<li className={styles.menu__item}>

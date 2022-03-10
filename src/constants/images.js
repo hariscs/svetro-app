@@ -18,6 +18,10 @@ import ebayimg from '../assets/ebay.jpg';
 import walmartimg from '../assets/walmart.jpg';
 import fbaimg from '../assets/fba.jpg';
 import contactimg from '../assets/contact.jpg';
+import consult from '../assets/icons/consult.svg';
+import optimize from '../assets/icons/optimize.svg';
+import scale from '../assets/icons/scale.svg';
+import meeting from '../assets/meeting.jpg';
 
 export default {
 	hamburger,
@@ -40,4 +44,8 @@ export default {
 	walmartimg,
 	fbaimg,
 	contactimg,
+	consult,
+	optimize,
+	scale,
+	meeting,
 };

@@ -116,18 +116,19 @@ section {
 }
 
 /* accordion */
-accordion {
+.accordion {
 	list-style: none;
+	max-width: 700px;
 }
 
 .accordion_item {
-	border-top: 1px solid #9f9f9f;
+	border-top: 1px solid var(--clr-primary);
 }
 
 .button {
 	font-size: 16px;
-	background-color: var(--clr-primary);
-	color: #fff;
+	/* background-color: var(--clr-primary); */
+	/* color: #fff; */
 	text-align: left;
 	font-weight: 700;
 	display: flex;

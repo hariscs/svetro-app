@@ -3,12 +3,18 @@ import Button from '../Button/Button';
 import { BsFillCheckCircleFill } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
 
-const ServiceDetail = ({ title, subtitle, img, flr }) => {
+const ServiceDetail = ({ title, subtitle, img, order }) => {
 	return (
 		<section className={styles.service}>
 			<div className='container'>
 				<div className={` ${styles.service__flex}`}>
-					<div className={styles.service__info}>
+					<div
+						className={
+							order
+								? `${styles.service__info} ${styles.service__order__1}`
+								: `${styles.service__info}`
+						}
+					>
 						<h2 className={styles.service__title}>{title}</h2>
 						<p className={styles.service__subtitle}>{subtitle}</p>
 						<div className={styles.service__list}>

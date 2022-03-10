@@ -15,7 +15,7 @@ const Consult = () => {
 							product and boost your profits
 						</p>
 
-						<Button btnType={'btn__outline'}>Contact</Button>
+						<Button btnType={'btn__outline'}>Contact Us</Button>
 					</div>
 				</div>
 			</div>
