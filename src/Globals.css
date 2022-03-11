@@ -101,6 +101,12 @@ section {
 	color: var(--clr-white);
 	background: var(--clr-primary);
 	border-color: var(--clr-primary);
+	border: 1px solid var(--clr-primary);
+}
+
+.btn__primary:hover {
+	color: var(--clr-primary);
+	background: var(--clr-white);
 }
 
 .btn__green {
@@ -109,10 +115,19 @@ section {
 	color: var(--clr-white);
 }
 
+.btn__green:hover {
+	background: var(--clr-white);
+	color: var(--clr-svetro-green);
+}
+
 .btn__outline {
 	background: var(--clr-white);
 	border: 1px solid var(--clr-primary);
 	color: var(--clr-primary);
+}
+
+.btn__outline:hover {
+	opacity: 0.8;
 }
 
 /* accordion */

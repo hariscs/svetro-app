@@ -33,7 +33,22 @@
 .header__img img {
 	border-radius: 16px;
 	margin-block: 3rem 5rem;
+	position: relative;
 }
+
+.header__img {
+	position: relative;
+}
+
+/* .header__img::before {
+	position: absolute;
+	content: '';
+	background: url(../../assets/dots.svg) no-repeat;
+	width: 170px;
+	height: 80px;
+	top: 0;
+	right: 0;
+} */
 
 @media (min-width: 80em) {
 	.header__flex {
@@ -54,6 +69,12 @@
 		align-items: flex-end;
 		justify-content: flex-end;
 	}
+
+	/* .header__img::before {
+		bottom: 40px;
+		right: 0;
+		border: 1px solid red;
+	} */
 
 	.header__img img {
 		margin: 0;
