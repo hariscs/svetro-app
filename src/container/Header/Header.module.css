@@ -48,6 +48,7 @@
 	height: 80px;
 	top: 3px;
 	right: 1px;
+	z-index: -1;
 }
 
 .header__img::after {
@@ -58,6 +59,7 @@
 	height: 80px;
 	bottom: 34px;
 	right: 1px;
+	z-index: -1;
 }
 
 @media (min-width: 80em) {

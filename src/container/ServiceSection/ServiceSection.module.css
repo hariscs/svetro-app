@@ -1,5 +1,15 @@
 .serviceSection {
-	padding: 2rem 0 4rem;
+	padding: 4rem 0;
+	position: relative;
+}
+
+.serviceSection::before {
+	content: '';
+	position: absolute;
+	background: url(../../assets/dots.svg) no-repeat;
+	width: 170px;
+	height: 80px;
+	bottom: -40px;
 }
 
 .serviceSection__flex {
@@ -38,10 +48,17 @@
 	.serviceSection__cards {
 		grid-template-columns: 1fr 1fr;
 	}
+
+	.serviceSection::before {
+		bottom: -26px;
+	}
 }
 
 @media (min-width: 80em) {
 	.serviceSection__cards {
 		grid-template-columns: repeat(4, 1fr);
+	}
+	.serviceSection::before {
+		bottom: -46px;
 	}
 }

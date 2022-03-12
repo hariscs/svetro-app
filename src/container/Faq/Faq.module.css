@@ -2,7 +2,17 @@
 	padding: 4rem 0;
 	text-align: center;
 	background: var(--clr-svetro-light);
-	/* margin-bottom: 0.1rem; */
+	position: relative;
+}
+
+.faq::after {
+	content: '';
+	position: absolute;
+	background: url(../../assets/circle.svg) no-repeat;
+	width: 240px;
+	height: 193px;
+	right: 0%;
+	top: -118px;
 }
 
 .faq__flex {
@@ -13,4 +23,12 @@
 
 .faq__title {
 	margin: 1rem 0 3rem;
+}
+
+@media (min-width: 80em) {
+	.faq::after {
+		width: 263px;
+		height: 317px;
+		top: -48px;
+	}
 }
