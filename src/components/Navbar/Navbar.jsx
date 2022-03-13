@@ -101,6 +101,19 @@ const Navbar = () => {
 								Contact
 							</NavLink>
 						</li>
+						<li className={styles.menu__item}>
+							<NavLink
+								to='/blogs'
+								onClick={() => setClick(true)}
+								className={(navData) =>
+									navData.isActive
+										? `${styles.menu__active} ${styles.menu__link}`
+										: `${styles.menu__link}`
+								}
+							>
+								Blogs
+							</NavLink>
+						</li>
 					</ul>
 
 					<div className={styles.contact__flex}>

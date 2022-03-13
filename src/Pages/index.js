@@ -6,3 +6,4 @@ export { default as Walmart } from './Walmart';
 export { default as Ebay } from './Ebay';
 export { default as Contact } from './Contact';
 export { default as Why } from './Why';
+export { default as Blogs } from './Blogs';
