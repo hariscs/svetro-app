@@ -9,4 +9,4 @@ export { default as Form } from './Form/Form';
 export { default as ServiceHeader } from './ServiceHeader/ServiceHeader';
 export { default as Process } from './Process/Process';
 export { default as Faq } from './Faq/Faq';
-export { default as Blog } from './Blog/Blog';
+export { default as Blogs } from './Blogs/Blogs';

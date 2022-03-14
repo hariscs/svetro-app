@@ -9,7 +9,7 @@ import {
 	Ebay,
 	Contact,
 	Why,
-	Blogs,
+	BlogsPage,
 } from './Pages';
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
 				<Route path='/ebay' element={<Ebay />} />
 				<Route path='/contact' element={<Contact />} />
 				<Route path='/why' element={<Why />} />
-				<Route path='/blogs' element={<Blogs />} />
+				<Route path='/blogs' element={<BlogsPage />} />
 				<Route path='*' element={<Page404 />} />
 			</Routes>
 			<Footer />

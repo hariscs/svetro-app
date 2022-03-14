@@ -1,18 +1,11 @@
-import { images } from '../../constants';
 import styles from './BlogCard.module.css';
 
-const BlogCard = ({ img, time, title, subtitle }) => {
+const BlogCard = ({ imgUrl, title, body, url }) => {
 	return (
-		<a href='/blog-link' className={styles.card}>
-			<img src={images.heroImg} alt='img' className={styles.card__img} />
-			<h3 className={styles.card__title}>
-				See The Light: What’s in The Amazon Lightning Deals
-			</h3>
-			<p className={styles.card__subtitle}>
-				Blog subtitle here Lorem ipsum, dolor sit amet consectetur adipisicing
-				elit. Corporis consectetur placeat cumque consequatur aliquam nemo illo
-				accusamus modi possimus soluta!
-			</p>
+		<a href={url} className={styles.card}>
+			<img src={imgUrl} alt='img' className={styles.card__img} />
+			<h3 className={styles.card__title}>{title}</h3>
+			<p className={styles.card__subtitle}>{body}[...]</p>
 			<p className={styles.card__continue}>Continue Reading...</p>
 		</a>
 	);
