@@ -11,12 +11,6 @@ const Blog = () => {
 			.fetch(query)
 			.then((data) => setBlogData(data))
 			.catch((err) => console.log(err));
-
-		// show only limited number of blogs
-		// .then((data) => {
-		// 	const blogArr = data.slice(0, 3);
-		// 	setBlogData(blogArr);
-		// })
 	}, []);
 
 	return (
@@ -26,7 +20,6 @@ const Blog = () => {
 					<div className={styles.blogs__info}>
 						<h2 className={styles.blogs__infoTitle}>Latest Posts</h2>
 					</div>
-
 					<div className={styles.blogs__grid}>
 						{blogData &&
 							blogData.map((blog) => {
