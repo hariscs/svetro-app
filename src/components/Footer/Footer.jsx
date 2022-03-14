@@ -70,6 +70,7 @@ const Footer = () => {
 						<div className={styles.flex}>
 							<NavLink to='/why'>Why Svetro</NavLink>
 							<NavLink to='/contact'>Contact Us</NavLink>
+							<NavLink to='/blogs'>Blogs</NavLink>
 						</div>
 					</div>
 					<div className={styles.col__contact}>

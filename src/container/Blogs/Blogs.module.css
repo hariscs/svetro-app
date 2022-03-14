@@ -12,8 +12,9 @@
 
 .blogs__infoTitle {
 	text-align: center;
-	font-size: 3rem;
-	margin: 2rem 0;
+	font-size: 2rem;
+	margin: 1rem 0;
+	color: var(--clr-primary);
 }
 
 .blogs__grid {
@@ -26,6 +27,12 @@
 	.blogs__grid {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.blogs__infoTitle {
+		text-align: center;
+		font-size: 3rem;
+		margin: 2rem 0;
 	}
 }
 

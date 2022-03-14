@@ -11,6 +11,12 @@ const Blog = () => {
 			.fetch(query)
 			.then((data) => setBlogData(data))
 			.catch((err) => console.log(err));
+
+		// show only limited number of blogs
+		// .then((data) => {
+		// 	const blogArr = data.slice(0, 3);
+		// 	setBlogData(blogArr);
+		// })
 	}, []);
 
 	return (
@@ -30,7 +36,7 @@ const Blog = () => {
 										key={_id}
 										imgUrl={urlFor(mainImage.asset._ref)}
 										title={title}
-										body={body[0].children[0].text}
+										body={body[0].children[0].text.slice(0, 200)}
 										url={slug.current}
 									/>
 								);

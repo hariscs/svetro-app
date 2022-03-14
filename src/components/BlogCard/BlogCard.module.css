@@ -21,7 +21,7 @@
 
 .card__img {
 	width: 500px;
-	height: 250px;
+	height: 220px;
 	object-fit: cover;
 	border-radius: 5px;
 }
@@ -33,6 +33,7 @@
 }
 
 .card__subtitle {
+	font-size: 0.875rem;
 	color: var(--clr-dark-gray);
 }
 
