@@ -1,4 +1,4 @@
-import { Process, Header, Faq, Consult } from '../container';
+import { Process, Header, Faq, Consult, LatestBlogs } from '../container';
 import { images } from '../constants';
 import { ServiceDetail } from '../components';
 
@@ -60,6 +60,7 @@ const Why = () => {
 			))}
 			<Faq />
 			<Consult />
+			<LatestBlogs />
 		</>
 	);
 };

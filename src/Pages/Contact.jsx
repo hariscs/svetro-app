@@ -1,9 +1,10 @@
-import { Form } from '../container';
+import { Form, LatestBlogs } from '../container';
 
 const Contact = () => {
 	return (
 		<section>
 			<Form />
+			<LatestBlogs />
 		</section>
 	);
 };

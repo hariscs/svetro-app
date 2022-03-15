@@ -3,6 +3,7 @@ import { Client } from '../components';
 import {
 	Consult,
 	Header,
+	LatestBlogs,
 	ServiceSection,
 	Stats,
 	TrackRecord,
@@ -34,6 +35,7 @@ const Home = () => {
 			<Client />
 			<Consult />
 			<Faq />
+			<LatestBlogs />
 		</>
 	);
 };
