@@ -7,4 +7,4 @@ export { default as Ebay } from './Ebay';
 export { default as Contact } from './Contact';
 export { default as Why } from './Why';
 export { default as BlogsPage } from './BlogsPage';
-export { default as SingleBlog } from './SingleBlog';
+export { default as SingleBlogPage } from './SingleBlogPage';

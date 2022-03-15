@@ -10,7 +10,7 @@ import {
 	Contact,
 	Why,
 	BlogsPage,
-	SingleBlog,
+	SingleBlogPage,
 } from './Pages';
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
 				<Route path='/ebay' element={<Ebay />} />
 				<Route path='/contact' element={<Contact />} />
 				<Route path='/why' element={<Why />} />
-				<Route path='/blog/:slug' element={<SingleBlog />} />
+				<Route path='/blog/:slug' element={<SingleBlogPage />} />
 				<Route path='/blogs' element={<BlogsPage />} />
 				<Route path='*' element={<Page404 />} />
 			</Routes>

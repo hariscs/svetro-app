@@ -4,14 +4,16 @@ import { BlogCard } from '../../components';
 import styles from './Blogs.module.css';
 
 const Blog = () => {
-	const [blogData, setBlogData] = useState([]);
+	const [blogData, setBlogData] = useState(null);
 	useEffect(() => {
-		const query = '*[_type=="post"]';
+		const query = `*[_type=="post"]`;
 		client
 			.fetch(query)
 			.then((data) => setBlogData(data))
 			.catch((err) => console.log(err));
 	}, []);
+
+	if (!blogData) return <div>Loading...</div>;
 
 	return (
 		<section className={styles.blogs}>

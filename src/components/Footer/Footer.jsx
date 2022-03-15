@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { images } from '../../constants';
 import {
 	BsInstagram,
@@ -59,18 +59,18 @@ const Footer = () => {
 					<div className={styles.col__services}>
 						<h3 className={styles.col__title}>Services</h3>
 						<div className={styles.flex}>
-							<NavLink to='/amazon'>Amazon Private Label</NavLink>
-							<NavLink to='/fba'>Amazon FBA Wholesale</NavLink>
-							<NavLink to='/walmart'>Walmart Private Label</NavLink>
-							<NavLink to='/ebay'>Selling on eBay</NavLink>
+							<Link to='/amazon'>Amazon Private Label</Link>
+							<Link to='/fba'>Amazon FBA Wholesale</Link>
+							<Link to='/walmart'>Walmart Private Label</Link>
+							<Link to='/ebay'>Selling on eBay</Link>
 						</div>
 					</div>
 					<div className={styles.col__company}>
 						<h3 className={styles.col__title}>Company</h3>
 						<div className={styles.flex}>
-							<NavLink to='/why'>Why Svetro</NavLink>
-							<NavLink to='/contact'>Contact Us</NavLink>
-							<NavLink to='/blogs'>Blogs</NavLink>
+							<Link to='/why'>Why Svetro</Link>
+							<Link to='/contact'>Contact Us</Link>
+							<Link to='/blogs'>Blogs</Link>
 						</div>
 					</div>
 					<div className={styles.col__contact}>
