@@ -24,18 +24,20 @@ const Blog = () => {
 					</div>
 					<div className={styles.blogs__grid}>
 						{blogData &&
-							blogData.map((blog) => {
-								const { title, _id, body, mainImage, slug } = blog;
-								return (
-									<BlogCard
-										key={_id}
-										imgUrl={urlFor(mainImage.asset._ref)}
-										title={title}
-										body={body[0].children[0].text.slice(0, 200)}
-										url={slug.current}
-									/>
-								);
-							})}
+							blogData
+								.sort((a, b) => new Date(b._createdAt) - new Date(a._createdAt))
+								.map((blog) => {
+									const { title, _id, body, mainImage, slug } = blog;
+									return (
+										<BlogCard
+											key={_id}
+											imgUrl={urlFor(mainImage.asset._ref)}
+											title={title}
+											body={body[0].children[0].text.slice(0, 200)}
+											url={slug.current}
+										/>
+									);
+								})}
 					</div>
 				</div>
 			</div>
