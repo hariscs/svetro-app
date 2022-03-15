@@ -1,0 +1,29 @@
+.buttons {
+	position: fixed;
+	top: 88vh;
+	right: 2%;
+	border-radius: 100vh;
+	transition: all 300ms ease-in;
+}
+
+.buttons:hover:before {
+	content: 'Message Us';
+	position: absolute;
+	width: 114px;
+	height: 30px;
+	bottom: 42%;
+	right: 64%;
+	font-size: 1.2rem;
+	color: var(--clr-primary);
+	z-index: 1;
+}
+
+.icon {
+	font-size: 4rem;
+	cursor: pointer;
+	transition: all 300ms ease-in;
+}
+
+.buttons:hover .icon {
+	transform: scale(1.1);
+}

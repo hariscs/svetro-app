@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import { Footer, Navbar } from './components';
+import { ContactButtons, Footer, Navbar } from './components';
 import {
 	Home,
 	Amazon,
@@ -29,6 +29,7 @@ function App() {
 				<Route path='/blogs' element={<BlogsPage />} />
 				<Route path='*' element={<Page404 />} />
 			</Routes>
+			<ContactButtons />
 			<Footer />
 		</>
 	);
