@@ -1,6 +1,6 @@
 .buttons {
 	position: fixed;
-	top: 88vh;
+	top: 80%;
 	right: 2%;
 	border-radius: 100vh;
 	transition: all 300ms ease-in;
