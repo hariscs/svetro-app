@@ -11,3 +11,4 @@ export { default as Process } from './Process/Process';
 export { default as Faq } from './Faq/Faq';
 export { default as Blogs } from './Blogs/Blogs';
 export { default as SingleBlog } from './SingleBlog/SingleBlog';
+export { default as LatestBlogs } from './LatestBlogs/LatestBlogs';

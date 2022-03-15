@@ -1,4 +1,3 @@
-import { BsWhatsapp } from 'react-icons/bs';
 import { RiWhatsappFill } from 'react-icons/ri';
 import { IconContext } from 'react-icons';
 import styles from './ContactButtons.module.css';
