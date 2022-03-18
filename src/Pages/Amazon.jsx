@@ -1,6 +1,7 @@
 import { Consult, Header, ServiceHeader, Faq } from '../container';
 import { images } from '../constants';
 import { ServiceDetail } from '../components';
+import { motion } from 'framer-motion';
 
 const amazon = {
 	title: 'Amazon Private Label',
@@ -9,7 +10,6 @@ const amazon = {
 	btntext: 'Get a free Consultation',
 	img: images.amazonimg,
 };
-
 const serviceData = [
 	{
 		title: 'Account creation and management',
@@ -32,7 +32,6 @@ const serviceData = [
 		img: images.amazonimg,
 	},
 ];
-
 const headerData = {
 	title: 'Our Amazon Private Label package comes with a lot of features',
 	subtitle:
@@ -41,7 +40,11 @@ const headerData = {
 
 const Amazon = () => {
 	return (
-		<>
+		<motion.section
+			initial={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			exit={{ opacity: 0 }}
+		>
 			<Header
 				title={amazon.title}
 				subtitle={amazon.subtitle}
@@ -61,7 +64,7 @@ const Amazon = () => {
 
 			<Faq />
 			<Consult />
-		</>
+		</motion.section>
 	);
 };
 

@@ -1,11 +1,16 @@
+import { motion } from 'framer-motion';
 import { Form, LatestBlogs } from '../container';
 
 const Contact = () => {
 	return (
-		<section>
+		<motion.section
+			initial={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			exit={{ opacity: 0 }}
+		>
 			<Form />
 			<LatestBlogs />
-		</section>
+		</motion.section>
 	);
 };
 

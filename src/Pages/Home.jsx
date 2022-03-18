@@ -9,9 +9,8 @@ import {
 	TrackRecord,
 } from '../container';
 import Faq from '../container/Faq/Faq';
-
 import { images } from '../constants';
-
+import { motion } from 'framer-motion';
 const home = {
 	title: 'First-class, cutting-edge solutions for your business',
 	subtitle:
@@ -22,7 +21,11 @@ const home = {
 
 const Home = () => {
 	return (
-		<>
+		<motion.section
+			initial={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			exit={{ opacity: 0 }}
+		>
 			<Header
 				title={home.title}
 				subtitle={home.subtitle}
@@ -36,7 +39,7 @@ const Home = () => {
 			<Consult />
 			<Faq />
 			<LatestBlogs />
-		</>
+		</motion.section>
 	);
 };
 

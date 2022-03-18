@@ -1,6 +1,7 @@
 import { Header, ServiceHeader, Faq, Consult } from '../container';
 import { images } from '../constants';
 import { ServiceDetail } from '../components';
+import { motion } from 'framer-motion';
 
 const fba = {
 	title: 'Amazon FBA Wholesale',
@@ -41,7 +42,11 @@ const serviceData = [
 
 const Fba = () => {
 	return (
-		<>
+		<motion.section
+			initial={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			exit={{ opacity: 0 }}
+		>
 			<Header
 				title={fba.title}
 				subtitle={fba.subtitle}
@@ -60,7 +65,7 @@ const Fba = () => {
 
 			<Faq />
 			<Consult />
-		</>
+		</motion.section>
 	);
 };
 

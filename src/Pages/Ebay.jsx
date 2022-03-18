@@ -1,6 +1,7 @@
 import { Consult, Header, ServiceHeader, Faq } from '../container';
 import { images } from '../constants';
 import { ServiceDetail } from '../components';
+import { motion } from 'framer-motion';
 
 const ebay = {
 	title: 'Selling on eBay',
@@ -41,7 +42,11 @@ const headerData = {
 
 const Ebay = () => {
 	return (
-		<>
+		<motion.section
+			initial={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			exit={{ opacity: 0 }}
+		>
 			<Header
 				title={ebay.title}
 				subtitle={ebay.subtitle}
@@ -61,7 +66,7 @@ const Ebay = () => {
 
 			<Faq />
 			<Consult />
-		</>
+		</motion.section>
 	);
 };
 

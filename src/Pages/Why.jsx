@@ -1,6 +1,7 @@
 import { Process, Header, Faq, Consult, LatestBlogs } from '../container';
 import { images } from '../constants';
 import { ServiceDetail } from '../components';
+import { motion } from 'framer-motion';
 
 const home = {
 	title: 'Why Svetro?',
@@ -42,7 +43,11 @@ const serviceData = [
 
 const Why = () => {
 	return (
-		<>
+		<motion.section
+			initial={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			exit={{ opacity: 0 }}
+		>
 			<Header
 				title={home.title}
 				subtitle={home.subtitle}
@@ -61,7 +66,7 @@ const Why = () => {
 			<Faq />
 			<Consult />
 			<LatestBlogs />
-		</>
+		</motion.section>
 	);
 };
 
