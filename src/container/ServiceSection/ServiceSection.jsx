@@ -1,6 +1,7 @@
 import { ServiceCard } from '../../components';
 import styles from './ServiceSection.module.css';
 import { images } from '../../constants';
+import { motion } from 'framer-motion';
 
 const serviceData = [
 	{
@@ -54,16 +55,28 @@ const ServiceSection = () => {
 						</p>
 					</div>
 					<div className={styles.serviceSection__cards}>
-						{serviceData.map((service) => {
+						{serviceData.map((service, i) => {
 							const { id, title, subtitle, icon, link } = service;
 							return (
-								<ServiceCard
-									key={id}
-									title={title}
-									subtitle={subtitle}
-									icon={icon}
-									link={link}
-								/>
+								<motion.div
+									key={i}
+									initial='hidden'
+									whileInView='visible'
+									viewport={{ once: true }}
+									transition={{ duration: 0.3, delay: i * 0.3 }}
+									variants={{
+										visible: { opacity: 1, translateX: 0, translateY: 0 },
+										hidden: { opacity: 0, translateX: -50, translateY: -50 },
+									}}
+								>
+									<ServiceCard
+										key={id}
+										title={title}
+										subtitle={subtitle}
+										icon={icon}
+										link={link}
+									/>
+								</motion.div>
 							);
 						})}
 					</div>

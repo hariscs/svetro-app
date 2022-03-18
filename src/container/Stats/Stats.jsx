@@ -1,10 +1,21 @@
 import styles from './Stats.module.css';
+import { motion } from 'framer-motion';
 
 const Stats = () => {
 	return (
 		<section className={styles.statsSection}>
 			<div className='container'>
-				<div className={styles.stats__flex}>
+				<motion.div
+					className={styles.stats__flex}
+					initial='hidden'
+					whileInView='visible'
+					viewport={{ once: false }}
+					transition={{ duration: 1 }}
+					variants={{
+						visible: { opacity: 1, translateY: 0 },
+						hidden: { opacity: 0, translateY: -100 },
+					}}
+				>
 					<div className={styles.stats__info}>
 						<h2 className={styles.stats__title}>
 							We are not just talk. We have the stats to prove it.
@@ -26,7 +37,7 @@ const Stats = () => {
 							<p className={styles.stats__cardInfo}>Years Working</p>
 						</div>
 					</div>
-				</div>
+				</motion.div>
 			</div>
 		</section>
 	);

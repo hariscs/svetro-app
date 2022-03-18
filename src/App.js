@@ -13,7 +13,6 @@ import {
 	SingleBlogPage,
 } from './Pages';
 import { AnimatePresence } from 'framer-motion';
-
 function App() {
 	return (
 		<>

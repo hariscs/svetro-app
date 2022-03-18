@@ -7,18 +7,39 @@ import {
 } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
 import styles from './Form.module.css';
+import { motion } from 'framer-motion';
 
 const Form = () => {
 	return (
 		<div className={styles.form}>
 			<div className='container'>
-				<div className={styles.form__info}>
+				<motion.div
+					className={styles.form__info}
+					initial='hidden'
+					whileInView='visible'
+					viewport={{ once: false }}
+					transition={{ duration: 1 }}
+					variants={{
+						visible: { opacity: 1, translateY: 0 },
+						hidden: { opacity: 0, translateY: -100 },
+					}}
+				>
 					<h2 className={styles.form__title}>Contact Us </h2>
 					<p className={styles.form__subtitle}>
 						We will get back to you as soon as possible.
 					</p>
-				</div>
-				<div className={styles.form__flex}>
+				</motion.div>
+				<motion.div
+					className={styles.form__flex}
+					initial='hidden'
+					whileInView='visible'
+					viewport={{ once: false }}
+					transition={{ duration: 1 }}
+					variants={{
+						visible: { opacity: 1, translateY: 0 },
+						hidden: { opacity: 0, translateY: -100 },
+					}}
+				>
 					<div className={styles.flex__info}>
 						<h2 className={styles.info__title}>Get In Touch</h2>
 						<p className={styles.info__subtitle}>
@@ -128,7 +149,7 @@ const Form = () => {
 						</div>
 						<button type='submit'>Send</button>
 					</form>
-				</div>
+				</motion.div>
 			</div>
 		</div>
 	);
