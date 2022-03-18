@@ -55,8 +55,9 @@ const Walmart = () => {
 			/>
 
 			<ServiceHeader title={headerData.title} subtitle={headerData.subtitle} />
-			{serviceData.map((data) => (
+			{serviceData.map((data, i) => (
 				<ServiceDetail
+					key={i}
 					title={data.title}
 					subtitle={data.subtitle}
 					img={data.img}

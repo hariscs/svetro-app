@@ -55,8 +55,9 @@ const Why = () => {
 				img={home.img}
 			/>
 			<Process />
-			{serviceData.map((data) => (
+			{serviceData.map((data, i) => (
 				<ServiceDetail
+					key={i}
 					title={data.title}
 					subtitle={data.subtitle}
 					img={data.img}
