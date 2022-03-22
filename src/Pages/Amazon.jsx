@@ -16,6 +16,7 @@ const serviceData = [
 		subtitle:
 			'We will take care of your account opening and also manage the account as your users grow. We will make sure that your account scales with your growing business needs. With us, your account is not in danger.',
 		img: images.amazonimg,
+		serviceOffer: ['This is a service', 'This is another service'],
 	},
 
 	{
@@ -59,6 +60,7 @@ const Amazon = () => {
 					subtitle={data.subtitle}
 					img={data.img}
 					order={data.order}
+					serviceOffer={data.serviceOffer}
 				/>
 			))}
 

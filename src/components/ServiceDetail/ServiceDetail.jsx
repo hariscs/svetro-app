@@ -2,8 +2,9 @@ import styles from './ServiceDetail.module.css';
 import Button from '../Button/Button';
 import { BsFillCheckCircleFill } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
+import ServiceCheckbox from '../ServiceCheckbox/ServiceCheckbox';
 
-const ServiceDetail = ({ title, subtitle, img, order }) => {
+const ServiceDetail = ({ title, subtitle, img, order, serviceOffer }) => {
 	return (
 		<section className={styles.service}>
 			<div className='container'>
@@ -20,12 +21,13 @@ const ServiceDetail = ({ title, subtitle, img, order }) => {
 						<div className={styles.service__list}>
 							<div className={styles.service__checkbox}>
 								<div className={styles.icon__container}>
-									<IconContext.Provider
+									{/* <IconContext.Provider
 										value={{ color: '#72b39c', className: 'icon' }}
 									>
 										<BsFillCheckCircleFill />
 									</IconContext.Provider>
-									<span>Account Opening</span>
+									<span>Account Opening</span> */}
+									<ServiceCheckbox serviceOffer={serviceOffer} />
 								</div>
 							</div>
 							<div className={styles.service__checkbox}>
