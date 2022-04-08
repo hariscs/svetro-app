@@ -9,7 +9,7 @@ const serviceData = [
 		icon: images.amazon,
 		title: 'Amazon Private Label',
 		subtitle:
-			'We will lead you to build a firm Amazon Private label account and cater to your needs as your business grows.',
+			'Build your own brand on Amazon with our advanced and top of the notch techniques.',
 		link: '/amazon',
 	},
 	{
@@ -25,7 +25,7 @@ const serviceData = [
 		icon: images.wallmart,
 		title: 'Walmart Private Label',
 		subtitle:
-			'We will lead you to build a firm Amazon Private label account and cater to your needs as your business grows.',
+			'Building successful Store on Walmart with highest profit margins in the market.',
 		link: '/walmart',
 	},
 	{
@@ -33,8 +33,24 @@ const serviceData = [
 		icon: images.ebay,
 		title: 'Selling on eBay',
 		subtitle:
-			'We will lead you to build a firm Amazon Private label account and cater to your needs as your business grows.',
+			'Become a successful seller on Ebay with our optimized ranking strategies.',
 		link: '/ebay',
+	},
+	{
+		id: 5,
+		icon: images.ebay,
+		title: 'Digital Marketing ',
+		subtitle:
+			'Boost your business and product sales by presenting it to millions of customers through the magic of our optimized blitz ranking and marketing strategies.',
+		link: '/other',
+	},
+	{
+		id: 6,
+		icon: images.ebay,
+		title: 'Website development',
+		subtitle:
+			'Develop websites with today’s advance technologies of coding and programming languages, our team offers',
+		link: '/other',
 	},
 ];
 
@@ -45,7 +61,7 @@ const ServiceSection = () => {
 				<div className={styles.serviceSection__flex}>
 					<div className={styles.serviceSection__info}>
 						<h2 className={styles.serviceSection__title}>
-							Cutting-edge solutions for your digital market
+							We have pioneer Business options for your investments.
 						</h2>
 						<p className={styles.serviceSection__subtitle}>
 							We comb through the market to find the perfect place for your

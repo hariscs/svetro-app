@@ -19,7 +19,7 @@ const Consult = () => {
 						}}
 					>
 						<h2 className={styles.card__text}>
-							Allow us to do the heavy-lifting.
+							Allow Us to introduce you to the market of $1.6 trillion
 						</h2>
 						<p className={styles.card__subText}>
 							Utilize our tried and tested approach to set up your digital

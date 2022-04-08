@@ -31,7 +31,7 @@
 
 .serviceSection__subtitle {
 	max-width: 55ch;
-	margin-inline: auto;
+	margin: 0 auto;
 }
 
 .serviceSection__cards {
@@ -57,6 +57,14 @@
 @media (min-width: 80em) {
 	.serviceSection__cards {
 		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.serviceSection__cards div:nth-child(5) {
+		grid-column: 2/3;
+	}
+
+	.serviceSection__cards div:nth-child(6) {
+		grid-column: 3/4;
 	}
 	.serviceSection::before {
 		bottom: -46px;

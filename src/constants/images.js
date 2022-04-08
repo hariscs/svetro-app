@@ -27,7 +27,6 @@ import b2 from '../assets/b2.png';
 import g1 from '../assets/g1.png';
 import g2 from '../assets/g2.png';
 
-// eslint-disable-next-line import/no-anonymous-default-export
 const images = {
 	hamburger,
 	icon_close,

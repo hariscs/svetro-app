@@ -18,16 +18,16 @@ const Stats = () => {
 				>
 					<div className={styles.stats__info}>
 						<h2 className={styles.stats__title}>
-							We are not just talk. We have the stats to prove it.
+							We are not just talking. We have the stats to prove it.
 						</h2>
 					</div>
 					<div className={styles.stats__cards}>
 						<div className={styles.stats__card}>
-							<h3 className={styles.stats__cardTitle}>800+</h3>
+							<h3 className={styles.stats__cardTitle}>400+</h3>
 							<p className={styles.stats__cardInfo}>Satisfied Clients</p>
 						</div>
 						<div className={styles.stats__card}>
-							<h3 className={styles.stats__cardTitle}>1.5+</h3>
+							<h3 className={styles.stats__cardTitle}>1.8+</h3>
 							<p className={styles.stats__cardInfo}>Years Working</p>
 						</div>
 					</div>

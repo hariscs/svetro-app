@@ -8,15 +8,14 @@ const card = [
 		id: 1,
 		title: 'Excellent project delivery',
 		subtitle:
-			'We have delivered numerous successful projects around the globe to our clients',
+			'Till now we have delivered numerous successful projects around the globe to our valuable customers with Zero negative feedback.',
 		icon: images.globe,
 		bgClr: '#a5c2f5',
 	},
 	{
 		id: 2,
-		title: 'Customer care card',
-		subtitle:
-			'We have delivered numerous successful projects around the globe to our clients',
+		title: 'Customer Support',
+		subtitle: 'We provide 24/7 customer support with reply time of 1 hour.',
 		icon: images.customer,
 		bgClr: '#FEF1E2',
 	},
@@ -24,7 +23,7 @@ const card = [
 		id: 3,
 		title: 'Customer Satifaction',
 		subtitle:
-			'We have delivered numerous successful projects around the globe to our clients',
+			'We have a velocity of 60% repeat customers, At svetro customer satisfaction is a priority.',
 		icon: images.handshake,
 		bgClr: '#D3F7E0',
 	},
@@ -32,7 +31,7 @@ const card = [
 		id: 4,
 		title: 'Experienced experts',
 		subtitle:
-			'We have delivered numerous successful projects around the globe to our clients',
+			'We have teams of an average 1.5 years of experience at market places like Amazon, Walmart and Ebay.',
 		icon: images.expert,
 		bgClr: '#A5C2F5',
 	},
@@ -54,7 +53,7 @@ const TrackRecord = () => {
 					}}
 				>
 					<h2 className={styles.trackSection__title}>
-						We have the track-record
+						We have maintained a Perfect track record.
 					</h2>
 					<p className={styles.trackSection__subtitle}>
 						Finding the right people to cater to the growing needs of your
