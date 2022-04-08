@@ -21,12 +21,18 @@ const Footer = () => {
 							<IconContext.Provider
 								value={{ color: 'white', className: 'icon' }}
 							>
-								<a href='/yt' className={styles.footer__iconContainer}>
+								<a
+									href='https://www.youtube.com/channel/UC9vZdbs9RKepzDw2ZnjJqzA'
+									className={styles.footer__iconContainer}
+								>
 									<BsYoutube />
 								</a>
 							</IconContext.Provider>
 
-							<a href='/fb' className={styles.footer__iconContainer}>
+							<a
+								href='https://facebook.com/svetro.official'
+								className={styles.footer__iconContainer}
+							>
 								<IconContext.Provider
 									value={{ color: 'white', className: 'icon' }}
 								>
@@ -40,14 +46,20 @@ const Footer = () => {
 									<BsTwitter />
 								</IconContext.Provider>
 							</a>
-							<a href='/in' className={styles.footer__iconContainer}>
+							<a
+								href='https://www.linkedin.com/in/svetro-ecommerce-754335230/'
+								className={styles.footer__iconContainer}
+							>
 								<IconContext.Provider
 									value={{ color: 'white', className: 'icon' }}
 								>
 									<BsLinkedin />
 								</IconContext.Provider>
 							</a>
-							<a href='/ig' className={styles.footer__iconContainer}>
+							<a
+								href='https://www.instagram.com/svetro.official/'
+								className={styles.footer__iconContainer}
+							>
 								<IconContext.Provider
 									value={{ color: 'white', className: 'icon' }}
 								>
@@ -63,6 +75,8 @@ const Footer = () => {
 							<Link to='/fba'>Amazon FBA Wholesale</Link>
 							<Link to='/walmart'>Walmart Private Label</Link>
 							<Link to='/ebay'>Selling on eBay</Link>
+							<Link to='/other'>Digital Marketing</Link>
+							<Link to='/other'>Web Development</Link>
 						</div>
 					</div>
 					<div className={styles.col__company}>

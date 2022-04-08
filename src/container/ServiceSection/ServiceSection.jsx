@@ -38,7 +38,7 @@ const serviceData = [
 	},
 	{
 		id: 5,
-		icon: images.ebay,
+		icon: images.dm,
 		title: 'Digital Marketing ',
 		subtitle:
 			'Boost your business and product sales by presenting it to millions of customers through the magic of our optimized blitz ranking and marketing strategies.',
@@ -46,7 +46,7 @@ const serviceData = [
 	},
 	{
 		id: 6,
-		icon: images.ebay,
+		icon: images.web,
 		title: 'Website development',
 		subtitle:
 			'Develop websites with today’s advance technologies of coding and programming languages, our team offers',

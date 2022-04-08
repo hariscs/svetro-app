@@ -26,6 +26,8 @@ import b1 from '../assets/b1.png';
 import b2 from '../assets/b2.png';
 import g1 from '../assets/g1.png';
 import g2 from '../assets/g2.png';
+import web from '../assets/icons/web.svg';
+import dm from '../assets/icons/dm.svg';
 
 const images = {
 	hamburger,
@@ -56,6 +58,8 @@ const images = {
 	b2,
 	g1,
 	g2,
+	web,
+	dm,
 };
 
 export default images;

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>.cls-1{fill:#dad7e5;}.cls-2{fill:#edebf2;}.cls-3{fill:#7c7d7d;}.cls-4{fill:#db5669;}.cls-5{fill:#f26674;}.cls-6{fill:#c6c3d8;}.cls-7{fill:#6fabe6;}</style>
+</defs>
+<title>Digital Marketing</title>
+<g data-name="Digital Marketing">
+<rect class="cls-1" x="19" y="37" width="10" height="10" rx="2"/>
+<path class="cls-2" d="m29 39v6a8 8 0 0 1-8-8h6a2 2 0 0 1 2 2z"/>
+<rect class="cls-1" x="35" y="18" width="12" height="12" rx="2"/>
+<path class="cls-2" d="m47 20c0 8.55-0.1 8 0 8a10 10 0 0 1-10-10h8a2 2 0 0 1 2 2z"/>
+<path class="cls-3" d="m24 44a2 2 0 1 1 2-2 2 2 0 0 1-2 2z"/>
+<path class="cls-1" d="m23 17v16l-10-4v-8z"/>
+<path class="cls-2" d="M23,17V30.2l-1.69-.67A10.07,10.07,0,0,1,15,20.2Z"/>
+<rect class="cls-1" x="5" y="21" width="8" height="8"/>
+<path class="cls-2" d="m13 21v6a6 6 0 0 1-6-6z"/>
+<path class="cls-4" d="m5 21v8a4 4 0 1 1 0-8z"/>
+<path class="cls-5" d="M5,21v5.87a4,4,0,0,1-2.93-4.59A4,4,0,0,1,5,21Z"/>
+<path class="cls-6" d="M10,38H6c-1-9.13-.84-7.58-1-9H9Z"/>
+<path class="cls-1" d="M8.89,38H6l-.89-8a3.23,3.23,0,0,1,3.21,2.87Z"/>
+<rect class="cls-1" x="16" y="1" width="16" height="10" rx="2"/>
+<path class="cls-2" d="m32 3v6h-6a8 8 0 0 1-8-8h12a2 2 0 0 1 2 2z"/>
+<path class="cls-4" d="M23,8a1,1,0,0,1-1-1c0-2.08-.13-2.48.47-2.85s1.28.11,3,1a1,1,0,0,1,0,1.78C23.25,8,23.31,8,23,8Z"/>
+<path class="cls-7" d="m42 23h-1a1 1 0 0 1 1-1 1 1 0 0 0 0-2 3 3 0 0 0-3 3 1 1 0 0 0 0 2v2a1 1 0 0 0 2 0v-2h1a1 1 0 0 0 0-2z"/>
+<path class="cls-3" d="m33 42.86a1 1 0 0 1-0.45-1.86 19 19 0 0 0 7.9-7.47 1 1 0 0 1 1.74 1c-3.06 5.26-8.29 8.33-9.19 8.33z"/>
+<path class="cls-3" d="m41.31 15c-1.41 0-1-2.55-5.91-6.19a1 1 0 0 1 1.2-1.6 20.76 20.76 0 0 1 5.58 6.29 1 1 0 0 1-0.87 1.5z"/>
+<path class="cls-3" d="m4.32 16.65a21 21 0 0 1 7.08-9.46 1 1 0 0 1 1.2 1.6 19 19 0 0 0-6.4 8.56 1 1 0 0 1-1.88-0.7z"/>
+<path class="cls-3" d="M15,42.85a7.54,7.54,0,0,1-2.06-1A1,1,0,0,1,14,40.15c.45.28.92.54,1.45.81A1,1,0,0,1,15,42.85Z"/>
+</g>
+</svg>
