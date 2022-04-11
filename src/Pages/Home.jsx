@@ -12,7 +12,7 @@ import Faq from '../container/Faq/Faq';
 import { images } from '../constants';
 import { motion } from 'framer-motion';
 const home = {
-	title: 'Wanna Sell More!',
+	title: "Wanna Sell More! let's go",
 	subtitle:
 		'With Svetro take your online business to the Next level, By having a competitive edge with the most skilled and capable teams by your side of Amazon and E-commerce experts of every platform.',
 	btntext: 'Get a free Consultation',
