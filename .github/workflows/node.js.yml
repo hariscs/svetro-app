@@ -21,7 +21,6 @@ jobs:
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-        node: --max-old-space-size=1000 $(which npm) install
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - run: npm ci
