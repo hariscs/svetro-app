@@ -6,13 +6,16 @@ name: Node.js CI
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   build:
 
     runs-on: self-hosted
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
     - uses: actions/checkout@v3
@@ -20,14 +23,7 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-    - run: 
-        npm i
-        cd frontend
-        npm i
-        npm run build
-        cd ..
-        pm2 stop 0
-        pm2 start 0
-        pm2 save
-        sudo service nginx restart
-
+        cache: 'npm'
+    - run: npm ci
+    - run: npm run build --if-present
+    - run: npm build
