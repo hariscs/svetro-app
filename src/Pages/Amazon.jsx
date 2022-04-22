@@ -131,13 +131,25 @@ const Amazon = () => {
 			<ServiceHeader title={headerData.title} subtitle={headerData.subtitle} />
 			<div className='container serviceSection__cards'>
 				{amazonService.map((data, i) => (
-					<ServiceCard
+					<motion.div
 						key={i}
-						title={data.title}
-						subtitle={data.subtitle}
-						link='/contact'
-						icon={data.icon}
-					/>
+						initial='hidden'
+						whileInView='visible'
+						viewport={{ once: true }}
+						transition={{ duration: 0.3, delay: i * 0.3 }}
+						variants={{
+							visible: { opacity: 1, translateX: 0, translateY: 0 },
+							hidden: { opacity: 0, translateX: -50, translateY: -50 },
+						}}
+					>
+						<ServiceCard
+							key={i}
+							title={data.title}
+							subtitle={data.subtitle}
+							link='/contact'
+							icon={data.icon}
+						/>
+					</motion.div>
 				))}
 			</div>
 
