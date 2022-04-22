@@ -166,3 +166,22 @@ section {
 	overflow: hidden;
 	transition: height ease 0.2s;
 }
+
+/* amazon cards */
+.serviceSection__cards {
+	display: grid;
+	gap: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+@media (min-width: 50em) {
+	.serviceSection__cards {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 80em) {
+	.serviceSection__cards {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}

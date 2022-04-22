@@ -98,7 +98,7 @@ const Form = () => {
 					</div>
 					<form
 						className={styles.inputForm}
-						action='https://formsubmit.co/harisshahcs@gmail.com'
+						action='https://formsubmit.co/contact-us@svetro.com'
 						method='POST'
 					>
 						<div className={styles.form__inputs}>

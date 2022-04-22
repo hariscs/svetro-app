@@ -28,8 +28,22 @@ import g1 from '../assets/g1.png';
 import g2 from '../assets/g2.png';
 import web from '../assets/icons/web.svg';
 import dm from '../assets/icons/dm.svg';
+import account from '../assets/icons/account.svg';
+import aoptimize from '../assets/icons/aoptimize.svg';
+import hunting from '../assets/icons/hunting.svg';
+import launch from '../assets/icons/launch.svg';
+import listing from '../assets/icons/listing.svg';
+import ppc from '../assets/icons/ppc.svg';
+import sourcing from '../assets/icons/sourcing.svg';
 
 const images = {
+	account,
+	hunting,
+	aoptimize,
+	launch,
+	listing,
+	ppc,
+	sourcing,
 	hamburger,
 	icon_close,
 	logo,

@@ -2,7 +2,6 @@ import { Consult, Header, ServiceHeader, Faq } from '../container';
 import { images } from '../constants';
 import { ServiceCard, ServiceDetail } from '../components';
 import { motion } from 'framer-motion';
-
 const amazon = {
 	title: 'Amazon Private Label',
 	subtitle:
@@ -73,9 +72,46 @@ const headerData = {
 
 const amazonService = [
 	{
-		title: 'title',
-		subtitle: 'subtitle',
-		icon: 'ic',
+		title: 'Hunting',
+		subtitle:
+			'A full-fledge research and analysis for set time frame of a product category to get a perfect product to launch.',
+		icon: images.hunting,
+	},
+	{
+		title: 'Sourcing',
+		subtitle:
+			'Using our contacts and communication skills, we source your product from China or around the globe with highest profit margins.',
+		icon: images.sourcing,
+	},
+	{
+		title: 'Account Creation',
+		subtitle:
+			'Creating Amazon account is a critical stage because of Amazon strict policy and guidelines. Our team make it to the perfection.',
+		icon: images.account,
+	},
+	{
+		title: 'Listing',
+		subtitle:
+			'We have expert Amazon content writers to make your listing with evaluation score of 10/10.',
+		icon: images.listing,
+	},
+	{
+		title: 'Listing optimization',
+		subtitle:
+			'We have experienced experts to optimize your listing against Amazon algorithm for guaranteed boosting of organic sales ',
+		icon: images.aoptimize,
+	},
+	{
+		title: 'Product Launch',
+		subtitle:
+			'We make sure to make this moment for our client as perfect and special as possible to be the long-running successful brand.',
+		icon: images.launch,
+	},
+	{
+		title: 'PPC',
+		subtitle:
+			'Pay-per-click campaigns that provide an optimal ROI for your business. This comes in our speciality.',
+		icon: images.ppc,
 	},
 ];
 
@@ -93,13 +129,14 @@ const Amazon = () => {
 				img={amazon.img}
 			/>
 			<ServiceHeader title={headerData.title} subtitle={headerData.subtitle} />
-			<div className='container'>
+			<div className='container serviceSection__cards'>
 				{amazonService.map((data, i) => (
 					<ServiceCard
 						key={i}
 						title={data.title}
 						subtitle={data.subtitle}
 						link='/contact'
+						icon={data.icon}
 					/>
 				))}
 			</div>
