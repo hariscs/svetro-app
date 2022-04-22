@@ -113,12 +113,6 @@ const amazonService = [
 			'Pay-per-click campaigns that provide an optimal ROI for your business. This comes in our speciality.',
 		icon: images.ppc,
 	},
-	{
-		title: 'Listing',
-		subtitle:
-			'We have expert Amazon content writers to make your listing with evaluation score of 10/10.',
-		icon: images.listing,
-	},
 ];
 
 const Amazon = () => {
