@@ -22,7 +22,7 @@ jobs:
           remote_user: ${{ secrets.USERNAME }}
           remote_key: ${{ secrets.SSH_KEY }}
           local_dir: 'build/'
-          remote_dir: '~/svetro/'
+          remote_dir: '/home/svetro/'
         run: |
           mkdir ~/.ssh
           echo "$remote_key" > ~/.ssh/gh_actions_key
