@@ -6,30 +6,30 @@ import { motion } from 'framer-motion';
 const walmart = {
 	title: 'Walmart Private Label',
 	subtitle:
-		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur repellat impedit exercitationem doloribus, libero voluptate. Quae maxime perferendis earum iure.',
-	btntext: 'Get a free Consultation',
+		'Walmart is The biggest marketplace after Amazon in US with market share of 69% which is worth $370+ billion in 2021. Walmart has an incredible potential for private label investments due to low seller competition and higher profit margins upto 40%, We have been exploring Walmart and have experienced its potential with numerous successful launches and have raised up a revenue of $4 million in past 2 years.',
+	btntext: 'Get free Consultation',
 	img: images.ebayimg,
 };
 
 const serviceData = [
 	{
-		title: 'Walmart creation and management',
+		title: 'Svetro’s Walmart Strategy',
 		subtitle:
-			'We will take care of your account opening and also manage the account as your users grow. We will make sure that your account scales with your growing business needs. With us, your account is not in danger.',
+			'The Walmart Marketplace gives you the best leads to generate more revenue if you look for an innovative way to sell your products and services. Our Services offers to design your online business growth on the maximum level. Walmart has established itself as a marketplace for lower prices products with good quality and convenience, In order to win this game all we need to do is provide a competitive price which is only possible with two ways Powerful sourcing and MPL launches (Our unique private label technique).',
 		img: images.amazonimg,
 	},
 
 	{
-		title: 'Account creation and management',
+		title: 'Svetro’s MPL Strategy',
 		subtitle:
-			'We will take care of your account opening and also manage the account as your users grow. We will make sure that your account scales with your growing business needs. With us, your account is not in danger.',
+			'Multiple Products Launches strategy (BBL) states that we invest the same amount of budget as traditional Private Label launch but for launching 3-5 products instead of 1 single product. As the marketplace is known for low price products, the consumer psychology will not adopt higher prices like Amazon or other marketplaces, So we developed this strategy with its own unique criteria in which we launch numerous but low budget product in order to meet the demand of the market and at the same time we now have our Storefront on platform rich with different products despite just 1 product as we do in our traditional Private Label Brand. We have experienced this strategy through numerous investments and so far our success rate is more than 80% with 150+ launches.',
 		img: images.amazonimg,
 		order: true,
 	},
 	{
-		title: 'Account creation and management',
+		title: 'Sustainable Compounding Growth',
 		subtitle:
-			'We will take care of your account opening and also manage the account as your users grow. We will make sure that your account scales with your growing business needs. With us, your account is not in danger.',
+			'After Amazon Walmart is the 2nd largest online retail platform but with higher inverse competition from Amazon. Using this competitive edge in regards of low competition we use the formula of 70/30 to grow our client’s Walmart business sustainably. As mentioned we target upto 40% profit margins on single product, we utilize this profit with 30% reinvestment and 70% payout to our client to sustainably make a compounding growth. These Flagship models of Business are mentioned on contract as an option for our client to decide',
 		img: images.amazonimg,
 	},
 ];
