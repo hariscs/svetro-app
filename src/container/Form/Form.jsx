@@ -123,7 +123,7 @@ const Form = () => {
 								type='tel'
 								name='number'
 								id='call'
-								placeholder='+92 343 441 3578'
+								placeholder='+92 311 123 4567'
 							/>
 
 							<label htmlFor='email'>Schedule a date</label>
@@ -141,11 +141,7 @@ const Form = () => {
 								placeholder='Message '
 							></textarea>
 							<input type='hidden' name='_captcha' value='false' />
-							<input
-								type='hidden'
-								name='_next'
-								value='https://svetro.netlify.app/'
-							/>
+							<input type='hidden' name='_next' value='https://svetro.com/' />
 						</div>
 						<button type='submit'>Send</button>
 					</form>
