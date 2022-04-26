@@ -24,10 +24,9 @@
 
 .header__subtitle {
 	font-size: 1.25rem;
-	margin-bottom: 3.5rem;
 	color: var(--clr-dark-gray);
-	max-width: 35ch;
-	margin-inline: auto;
+	max-width: 43ch;
+	margin: 0 auto 3.5rem;
 }
 
 .header__img img {

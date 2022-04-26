@@ -35,6 +35,7 @@ import launch from '../assets/icons/launch.svg';
 import listing from '../assets/icons/listing.svg';
 import ppc from '../assets/icons/ppc.svg';
 import sourcing from '../assets/icons/sourcing.svg';
+import manage from '../assets/icons/manage.svg';
 
 const images = {
 	account,
@@ -43,6 +44,7 @@ const images = {
 	launch,
 	listing,
 	ppc,
+	manage,
 	sourcing,
 	hamburger,
 	icon_close,

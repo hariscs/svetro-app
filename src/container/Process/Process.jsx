@@ -8,21 +8,21 @@ const processData = [
 		id: 1,
 		title: 'Consultation',
 		subtitle:
-			'Let’s get to know each other. Once we find out about your situation, needs and wants, we will give you a proposal outlining what we can do for you and the costs involved in working with us. We will work with you only if we can truly increase your bottom line profits.',
+			'We would be delighted to get in touch with you. We believe developing relations develop results, So we have provided ambassadors of Svetro from every service domain we offer, in order to Assist you against your concerns and make sure to satisfy our all your consultation needs. We provide 24/7 working days consultation free of cost.',
 		img: images.consult,
 	},
 	{
 		id: 2,
 		title: 'Optimization',
 		subtitle:
-			'Let’s get to know each other. Once we find out about your situation, needs and wants, we will give you a proposal outlining what we can do for you and the costs involved in working with us. We will work with you only if we can truly increase your bottom line profits.',
+			'Creating a business have become very handy now  a days because of advance medium of technology and connectivity, the issue we as a business owners face is huge a competition in every market. Optimization is the key which our team has kept a perfect track record in, for all the business models we work on, for organic productivity.',
 		img: images.optimize,
 	},
 	{
 		id: 3,
 		title: 'Scaling',
 		subtitle:
-			'Let’s get to know each other. Once we find out about your situation, needs and wants, we will give you a proposal outlining what we can do for you and the costs involved in working with us. We will work with you only if we can truly increase your bottom line profits.',
+			'Scaling growth entails developing business models and constructing your business in such a manner that it can easily scale in order to create constant revenue growth and prevent stalls without incurring a lot of additional costs and/or resources. Most of our clients are the referred clients from previous ones.',
 		img: images.scale,
 	},
 ];

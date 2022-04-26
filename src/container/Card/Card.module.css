@@ -4,7 +4,7 @@
 	place-items: center;
 	background: var(--clr-white);
 	border-radius: 16px;
-	box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 25px rgba(0, 0, 0, 0.1);
 	min-height: 206px;
 }
 

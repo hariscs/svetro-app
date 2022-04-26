@@ -1,4 +1,4 @@
-import { RiWhatsappFill } from 'react-icons/ri';
+import { BsWhatsapp } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
 import styles from './ContactButtons.module.css';
 
@@ -10,10 +10,8 @@ const ContactButtons = () => {
 			className={styles.buttons}
 			rel='noreferrer'
 		>
-			<IconContext.Provider
-				value={{ color: '#25D366', className: styles.icon }}
-			>
-				<RiWhatsappFill />
+			<IconContext.Provider value={{ color: '#fff', className: styles.icon }}>
+				<BsWhatsapp />
 			</IconContext.Provider>
 		</a>
 	);

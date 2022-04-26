@@ -117,7 +117,7 @@ const amazonService = [
 		title: 'Account Management',
 		subtitle:
 			'Maintaining and management of account actively by experts to make achieve long term financial goals with sustainability.',
-		icon: images.ppc,
+		icon: images.manage,
 	},
 ];
 

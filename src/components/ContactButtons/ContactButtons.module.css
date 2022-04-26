@@ -15,8 +15,8 @@
 	right: 107%;
 	padding: 1rem;
 	font-size: 1.2rem;
-	color: var(--clr-dark);
-	background: var(--clr-white);
+	color: var(--clr-white);
+	background: var(--clr-light-blue);
 	border-radius: 10px;
 	z-index: 1;
 }
@@ -25,6 +25,9 @@
 	font-size: 4rem;
 	cursor: pointer;
 	transition: all 300ms ease-in;
+	background: #25d366;
+	border-radius: 100%;
+	padding: 0.5rem;
 }
 
 .buttons:hover .icon {
