@@ -1,4 +1,4 @@
-import { Header, ServiceHeader, Faq, Consult } from '../container';
+import { Header, Faq, Consult } from '../container';
 import { images } from '../constants';
 import { ServiceDetail } from '../components';
 import { motion } from 'framer-motion';
@@ -47,7 +47,7 @@ const Fba = () => {
 				btnText={fba.btntext}
 				img={fba.img}
 			/>
-			{/* <ServiceHeader title={headerData.title} subtitle={headerData.subtitle} /> */}
+
 			{serviceData.map((data, i) => (
 				<ServiceDetail
 					key={i}
