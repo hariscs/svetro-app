@@ -11,12 +11,6 @@ const fba = {
 	img: images.webdev,
 };
 
-// const headerData = {
-// 	title: 'Our Amazon FBA Wholesale package comes with a lot of features',
-// 	subtitle:
-// 		'Lorem ipsum a lot of text and there is so much that we have to do to get this to look the way we want it to. This is placeholder text describing this visitor to this site.',
-// };
-
 const serviceData = [
 	{
 		title: 'Custom Website Development',

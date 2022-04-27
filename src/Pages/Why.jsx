@@ -16,21 +16,21 @@ const serviceData = [
 		title: 'Amazon account handling',
 		subtitle:
 			"To expand your business, you'll need to keep your Amazon Seller Account in good shape. You don't want to waste time on taxation difficulties that will disrupt the flow of your business, resulting in lost income. Our team at Svetro will take a holistic approach to Amazon support, enhancing the customer service experience, and safeguarding the health of your seller account in every way. Let us make your Amazon journey memorable for you with unique set of techniques and strategies highly compelling for our clients.",
-		img: images.amazonimg,
+		img: images.amazonman,
 	},
 
 	{
 		title: 'Walmart account management',
 		subtitle:
 			'You can always rely on Svetro’s expert services. Your business is always in good hands when you work with us. We offer a full range of management services for your Walmart store aimed at improving business operations. Our innovative strategies and specialized approach are designed to maximize your potential while taking into consideration the nuances of Walmart. Let us make your Walmart journey memorable for you with unique set of techniques and strategies highly compelling for our clients.',
-		img: images.amazonimg,
+		img: images.walman,
 		order: true,
 	},
 	{
 		title: 'Ebay account handling',
 		subtitle:
 			'eBay connects millions of buyers and sellers around the world. If you want to run a successful eBay business, a long trading history and experience are what matters in this marketplace. Our ebay team has managed to make 100+ stores successful with constant R&D developing new techniques and strategies to make our client’s stores the best sellers. So Let us make your ebay journey memorable for you with unique set of techniques and strategies highly compelling for our clients.',
-		img: images.amazonimg,
+		img: images.ebayman,
 	},
 ];
 

@@ -44,8 +44,28 @@ import wholesale from '../assets/wholesale.jpg';
 import profit from '../assets/profit.jpg';
 import blitz from '../assets/blitz.jpg';
 import sourcingimg from '../assets/sourcing.jpg';
+import mpl from '../assets/mpl.jpg';
+import walmartstag from '../assets/walmartstag.jpg';
+import growth from '../assets/growth.jpg';
+import perfect from '../assets/perfect.jpg';
+import maintine from '../assets/maintine.jpg';
+import leadsuccess from '../assets/leadsuccess.jpg';
+import walhead from '../assets/wlhead.jpg';
+import walman from '../assets/walman.jpg';
+import amazonman from '../assets/amazonman.jpg';
+import ebayman from '../assets/ebayman.jpeg';
 
 const images = {
+	walman,
+	amazonman,
+	ebayman,
+	perfect,
+	maintine,
+	leadsuccess,
+	walhead,
+	mpl,
+	walmartstag,
+	growth,
 	roi,
 	wholesale,
 	profit,

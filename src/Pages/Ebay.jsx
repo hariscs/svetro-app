@@ -1,4 +1,4 @@
-import { Consult, Header, ServiceHeader, Faq } from '../container';
+import { Consult, Header, Faq } from '../container';
 import { images } from '../constants';
 import { ServiceDetail } from '../components';
 import { motion } from 'framer-motion';
@@ -16,29 +16,23 @@ const serviceData = [
 		title: 'How we do it perfectly',
 		subtitle:
 			"To increase eBay sales Understanding what pushes some stores to the top is the key. Much of it has to do with the way eBay’s search engine works, eBay’s search engine helps customers find the items relevant to their search. The exact formula is kept secret, just like Google's search algorithm, to prevent tampering. However, By launching numerous stores we cracked the key formulas that works over the past 2 years which are proved to enhance ratings and drive more conversions.",
-		img: images.amazonimg,
+		img: images.perfect,
 	},
 
 	{
 		title: 'Perfect steps leads to sustaniable success',
 		subtitle:
 			'Like other e-commerce platforms Amazon and Walmart, ebay has the same process and framework for sellers but with a different customer and market psychology. We believe right strategy and complete implementation can almost abolish 100% chances of failure, with that mindset our R&D has designed a criteria of 12 components to validate our plans for launching on ebay and 15 components strategy to implement during selling on ebay. Such accurate and sequential approach is the key for our higher success rate.',
-		img: images.amazonimg,
+		img: images.leadsuccess,
 		order: true,
 	},
 	{
 		title: 'Maintenance is important than Rocketing Growth',
 		subtitle:
 			'Ebay seller business is comparatively very congested than Amazon or Walmart. Because of huge consumer demand on platform ranking and growth is very easy with right strategy but the sustainability is a huge challenge because of its diverse and congested nature having almost daily launches on storefront and its management. If not maintained and updated well, the store gets de-ranked with the same speed it was ranked. However, being an experience and successful service providers Svetro team has zero negative feedback in such regards. Our clients success is our success and client’s satisfaction is the first priority.',
-		img: images.amazonimg,
+		img: images.maintine,
 	},
 ];
-
-const headerData = {
-	title: 'Our Selling on eBay package comes with a lot of features',
-	subtitle:
-		'Lorem ipsum a lot of text and there is so much that we have to do to get this to look the way we want it to. This is placeholder text describing this visitor to this site.',
-};
 
 const Ebay = () => {
 	return (
@@ -54,7 +48,6 @@ const Ebay = () => {
 				img={ebay.img}
 			/>
 
-			<ServiceHeader title={headerData.title} subtitle={headerData.subtitle} />
 			{serviceData.map((data, i) => (
 				<ServiceDetail
 					key={i}
