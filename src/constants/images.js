@@ -36,8 +36,24 @@ import listing from '../assets/icons/listing.svg';
 import ppc from '../assets/icons/ppc.svg';
 import sourcing from '../assets/icons/sourcing.svg';
 import manage from '../assets/icons/manage.svg';
+import wordpress from '../assets/wordpress.jpg';
+import mern from '../assets/mern.jpg';
+import webdev from '../assets/web.jpg';
+import roi from '../assets/roi.jpg';
+import wholesale from '../assets/wholesale.jpg';
+import profit from '../assets/profit.jpg';
+import blitz from '../assets/blitz.jpg';
+import sourcingimg from '../assets/sourcing.jpg';
 
 const images = {
+	roi,
+	wholesale,
+	profit,
+	blitz,
+	sourcingimg,
+	wordpress,
+	webdev,
+	mern,
 	account,
 	hunting,
 	aoptimize,

@@ -3,29 +3,28 @@ import AccordionItem from './FaqItem';
 
 const faqs = [
 	{
-		question: 'Lorem ipsum dolor sit amet?',
+		question: 'How much budget we need for Starting Amazon Business?',
 		answer:
-			'Tenetur ullam rerum ad iusto possimus sequi mollitia dolore sunt quam praesentium. Tenetur ullam rerum ad iusto possimus sequi mollitia dolore sunt quam praesentium.Tenetur ullam rerum ad iusto possimus sequi mollitia dolore sunt quam praesentium.',
+			'It depends on the marketplace competition in which the business will be established.',
 	},
 	{
-		question: 'Dignissimos sequi architecto?',
+		question: 'How much time it takes to achieve ROI?',
 		answer:
-			'Aperiam ab atque incidunt dolores ullam est, earum ipsa recusandae velit cumque. Aperiam ab atque incidunt dolores ullam est, earum ipsa recusandae velit cumque.',
+			'It varies for different business models and platforms but 6-8 months is the average Time period based on experience.',
 	},
 	{
-		question: 'Voluptas praesentium facere?',
+		question: 'How much profit we can expect in Amazon private label?',
 		answer:
-			'Blanditiis aliquid adipisci quisquam reiciendis voluptates itaque.',
+			'Our target margin is 25% net, it can grow more over the time and can fluctuate according to market situation',
 	},
 	{
-		question: 'Voluptas praesentium facere?',
+		question: 'What is the potential of Walmart in comparison with Amazon?',
 		answer:
-			'Blanditiis aliquid adipisci quisquam reiciendis voluptates itaque.',
+			'Its a second biggest online retail body in US with incredibly low competition as compare to Amazon which means higher chances to grow faster',
 	},
 	{
-		question: 'Voluptas praesentium facere?',
-		answer:
-			'Blanditiis aliquid adipisci quisquam reiciendis voluptates itaque.',
+		question: 'Is ebay business good in US or UK?',
+		answer: 'Based on the market and results we recommend ebay business in UK.',
 	},
 ];
 
