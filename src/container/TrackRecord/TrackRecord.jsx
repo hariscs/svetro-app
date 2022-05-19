@@ -8,14 +8,15 @@ const card = [
 		id: 1,
 		title: 'Excellent project delivery',
 		subtitle:
-			'Till now we have delivered numerous successful projects around the globe to our valuable customers with Zero negative feedback.',
+			'We have delivered 500+ successful projects to our valuable customers with Zero negative feedback..',
 		icon: images.globe,
 		bgClr: '#a5c2f5',
 	},
 	{
 		id: 2,
 		title: 'Customer Support',
-		subtitle: 'We provide 24/7 customer support with reply time of 1 hour.',
+		subtitle:
+			'We provide 24/7 customer support with reply time of 1 hour on working days.',
 		icon: images.customer,
 		bgClr: '#FEF1E2',
 	},

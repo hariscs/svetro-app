@@ -54,8 +54,12 @@ import walhead from '../assets/wlhead.jpg';
 import walman from '../assets/walman.jpg';
 import amazonman from '../assets/amazonman.jpg';
 import ebayman from '../assets/ebayman.jpeg';
+import llc from '../assets/llc.jpg';
+import ltd from '../assets/ltd.jpg';
 
 const images = {
+	llc,
+	ltd,
 	walman,
 	amazonman,
 	ebayman,

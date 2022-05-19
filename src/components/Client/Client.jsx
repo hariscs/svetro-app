@@ -48,8 +48,9 @@ const Clients = () => {
 					<div className={styles.clientsInfo}>
 						<h1 className={styles.clients__title}>What our clients say</h1>
 						<p className={styles.clients__subtitle}>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh
-							dignissim id eu magna eu.
+							Reviews matters for Us. As we are keen on satisfying our customers
+							expectations as much as possible and your feedback helps us do
+							that.
 						</p>
 					</div>
 				</div>

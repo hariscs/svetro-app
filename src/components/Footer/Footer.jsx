@@ -39,7 +39,10 @@ const Footer = () => {
 									<BsFacebook />
 								</IconContext.Provider>
 							</a>
-							<a href='/tw' className={styles.footer__iconContainer}>
+							<a
+								href='https://twitter.com/Svetro_Official'
+								className={styles.footer__iconContainer}
+							>
 								<IconContext.Provider
 									value={{ color: 'white', className: 'icon' }}
 								>
@@ -72,11 +75,11 @@ const Footer = () => {
 						<h3 className={styles.col__title}>Services</h3>
 						<div className={styles.flex}>
 							<Link to='/amazon'>Amazon Private Label</Link>
-							<Link to='/fba'>Amazon FBA Wholesale</Link>
+							<Link to='/amazon'>Amazon FBA Wholesale</Link>
 							<Link to='/walmart'>Walmart Private Label</Link>
 							<Link to='/ebay'>Selling on eBay</Link>
-							<Link to='/other'>Digital Marketing</Link>
-							<Link to='/other'>Web Development</Link>
+							<Link to='/fba'>Company Formation</Link>
+							<Link to='/fba'>Web Development</Link>
 						</div>
 					</div>
 					<div className={styles.col__company}>

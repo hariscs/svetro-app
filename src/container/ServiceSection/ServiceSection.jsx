@@ -18,7 +18,7 @@ const serviceData = [
 		title: 'Amazon FBA Wholesale',
 		subtitle:
 			'We will lead you to build a firm Amazon Private label account and cater to your needs as your business grows.',
-		link: '/fba',
+		link: '/amazon',
 	},
 	{
 		id: 3,
@@ -39,9 +39,9 @@ const serviceData = [
 	{
 		id: 5,
 		icon: images.dm,
-		title: 'Digital Marketing ',
+		title: 'Company Formation ',
 		subtitle:
-			'Boost your business and product sales by presenting it to millions of customers through the magic of our optimized blitz ranking and marketing strategies.',
+			'Form a company with Us with the most reliable and acknowledge track record of authentic in time delivery.',
 		link: '/other',
 	},
 	{
