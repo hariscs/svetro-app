@@ -57,33 +57,48 @@ const SingleBlog = () => {
 						<IconContext.Provider
 							value={{ color: '#1e42a1', className: styles.icon }}
 						>
-							<a href='/yt' className={styles.footer__iconContainer}>
+							<a
+								href='https://www.youtube.com/channel/UC9vZdbs9RKepzDw2ZnjJqzA'
+								className={styles.footer__iconContainer}
+							>
 								<BsYoutube />
 							</a>
 						</IconContext.Provider>
 
-						<a href='/fb' className={styles.footer__iconContainer}>
+						<a
+							href='https://facebook.com/svetro.official'
+							className={styles.footer__iconContainer}
+						>
 							<IconContext.Provider
 								value={{ color: '#1e42a1', className: styles.icon }}
 							>
 								<BsFacebook />
 							</IconContext.Provider>
 						</a>
-						<a href='/tw' className={styles.footer__iconContainer}>
+						<a
+							href='https://twitter.com/Svetro_Official'
+							className={styles.footer__iconContainer}
+						>
 							<IconContext.Provider
 								value={{ color: '#1e42a1', className: styles.icon }}
 							>
 								<BsTwitter />
 							</IconContext.Provider>
 						</a>
-						<a href='/in' className={styles.footer__iconContainer}>
+						<a
+							href='https://www.linkedin.com/in/svetro-ecommerce-754335230/'
+							className={styles.footer__iconContainer}
+						>
 							<IconContext.Provider
 								value={{ color: '#1e42a1', className: styles.icon }}
 							>
 								<BsLinkedin />
 							</IconContext.Provider>
 						</a>
-						<a href='/ig' className={styles.footer__iconContainer}>
+						<a
+							href='https://www.instagram.com/svetro.official/'
+							className={styles.footer__iconContainer}
+						>
 							<IconContext.Provider
 								value={{ color: '#1e42a1', className: styles.icon }}
 							>
