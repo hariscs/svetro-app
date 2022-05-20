@@ -23,12 +23,12 @@ const Stats = () => {
 					</div>
 					<div className={styles.stats__cards}>
 						<div className={styles.stats__card}>
-							<h3 className={styles.stats__cardTitle}>400+</h3>
+							<h3 className={styles.stats__cardTitle}>50+</h3>
 							<p className={styles.stats__cardInfo}>Satisfied Clients</p>
 						</div>
 						<div className={styles.stats__card}>
-							<h3 className={styles.stats__cardTitle}>1.8+</h3>
-							<p className={styles.stats__cardInfo}>Years Working</p>
+							<h3 className={styles.stats__cardTitle}>2+</h3>
+							<p className={styles.stats__cardInfo}>Years Experience</p>
 						</div>
 					</div>
 				</motion.div>

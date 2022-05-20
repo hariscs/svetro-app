@@ -56,9 +56,6 @@
 	background: var(--clr-primary);
 }
 
-/* @media (min-width: 50em) {
-} */
-
 @media (min-width: 80em) {
 	.footer__grid {
 		grid-template-columns: repeat(4, 1fr);

@@ -16,7 +16,11 @@ const Footer = () => {
 			<div className='container'>
 				<div className={styles.footer__grid}>
 					<div className={styles.col__icons}>
-						<img src={images.logofooter} alt='logo' />
+						<img
+							src={images.footerlogo}
+							alt='logo'
+							className={styles.footerLogo}
+						/>
 						<div className={styles.iconFlex}>
 							<IconContext.Provider
 								value={{ color: 'white', className: 'icon' }}
@@ -94,7 +98,7 @@ const Footer = () => {
 						<h3 className={styles.col__title}>Contact</h3>
 						<div className={styles.flex}>
 							<a href='mailto:info@svetro.com'>info@svetro.com</a>
-							<a href='callto:00923434413578'>+92 343 441 3578</a>
+							<a href='callto:+447915601167'>+44 (791) 560 1167</a>
 							<div className={styles.address}>
 								Plaza 25A, Khayaban-e-Iqbal, Sector XX DHA Phase 3, Lahore,
 								Punjab 54000, Pakistan

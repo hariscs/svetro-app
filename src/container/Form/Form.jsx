@@ -126,14 +126,10 @@ const Form = () => {
 								placeholder='+92 311 123 4567'
 							/>
 
-							<label htmlFor='email'>Schedule a date</label>
-							<input
-								type='date'
-								name='date'
-								id='date'
-								required
-								// placeholder='example@email.com'
-							/>
+							<label htmlFor='date'>Schedule a Date</label>
+							<input type='date' name='date' id='date' required />
+							<label htmlFor='time'>Schedule a Time, PK (GMT+5)</label>
+							<input type='time' name='time' id='time' required />
 							<label htmlFor='message'>Message</label>
 							<textarea
 								name='message'

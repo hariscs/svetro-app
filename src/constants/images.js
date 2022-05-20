@@ -56,8 +56,10 @@ import amazonman from '../assets/amazonman.jpg';
 import ebayman from '../assets/ebayman.jpeg';
 import llc from '../assets/llc.jpg';
 import ltd from '../assets/ltd.jpg';
+import footerlogo from '../assets/logofooter.svg';
 
 const images = {
+	footerlogo,
 	llc,
 	ltd,
 	walman,
