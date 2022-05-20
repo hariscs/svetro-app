@@ -5,7 +5,7 @@ import styles from './ContactButtons.module.css';
 const ContactButtons = () => {
 	return (
 		<a
-			href='https://wa.me/923434413578'
+			href='https://wa.me/+447915601167'
 			target='_blank'
 			className={styles.buttons}
 			rel='noreferrer'
