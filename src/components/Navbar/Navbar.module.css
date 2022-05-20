@@ -9,7 +9,7 @@
 }
 
 .logo__container {
-	width: 60px;
+	width: 50%;
 }
 
 .navbar__menu {
@@ -77,6 +77,9 @@
 @media (min-width: 50em) {
 	.mobile_menu {
 		display: none;
+	}
+	.logo__container {
+		width: 20%;
 	}
 }
 

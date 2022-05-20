@@ -13,7 +13,7 @@ const Navbar = () => {
 			<div className='container'>
 				<div className={styles.navbar__flex}>
 					<NavLink to='/' className={styles.logo__container}>
-						<img src={images.logo} alt='logo' />
+						<img src={images.footerlogo} alt='logo' />
 					</NavLink>
 
 					<ul
