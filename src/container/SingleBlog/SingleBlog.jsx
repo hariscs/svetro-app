@@ -106,6 +106,25 @@ const SingleBlog = () => {
 							</IconContext.Provider>
 						</a>
 					</div>
+					<div className={styles.emailContainer}>
+						<form
+							className={styles.inputForm}
+							action='https://formsubmit.co/contact-us@svetro.com'
+							method='POST'
+						>
+							<input
+								type='email'
+								name='email'
+								id='email'
+								required
+								placeholder='connect with Us'
+							/>
+
+							<input type='hidden' name='_captcha' value='false' />
+							<input type='hidden' name='_next' value='https://svetro.com/' />
+							<button type='submit'>Send</button>
+						</form>
+					</div>
 				</aside>
 			</div>
 		</main>
