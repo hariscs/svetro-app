@@ -11,6 +11,7 @@ import {
 	BsYoutube,
 } from 'react-icons/bs';
 import { IconContext } from 'react-icons';
+import { Modal } from '../../components';
 
 const SingleBlog = () => {
 	const [singleBlog, setSingleBlog] = useState(null);
@@ -127,6 +128,7 @@ const SingleBlog = () => {
 					</div>
 				</aside>
 			</div>
+			<Modal />
 		</main>
 	);
 };

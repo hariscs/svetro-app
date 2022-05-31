@@ -1,0 +1,77 @@
+.modal__container {
+	z-index: 99;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal {
+	background-color: var(--clr-white);
+	display: flex;
+	flex-direction: column;
+	/* position: fixed;
+	top: 5%;
+	left: 10%; */
+	max-width: 600px;
+	/* z-index: 9; */
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.modal__img {
+	flex-basis: 50%;
+}
+
+.modal__data {
+	padding: 1rem 2rem;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-basis: 50%;
+}
+
+.modal__title {
+	margin-bottom: 0.5rem;
+}
+
+.modal__subtitle {
+	margin-bottom: 0.5rem;
+	font-size: 0.9rem;
+	width: 40ch;
+	margin-left: auto;
+	margin-right: auto;
+	color: var(--clr-dark-gray);
+}
+
+.inputForm button {
+	color: var(--clr-white);
+	background: var(--clr-primary);
+	padding: 0.59rem 1rem;
+	border: 0;
+	cursor: pointer;
+	transition: all 300ms ease-in;
+	margin-left: -10px;
+	border-radius: 5px;
+	margin-bottom: 0.9rem;
+}
+
+.inputForm input {
+	padding: 0.5rem;
+	border: 0.5px solid var(--clr-dark-gray);
+	border-radius: 5px;
+}
+
+.modal__btn {
+	padding: 0.5rem;
+	border: 0;
+	background: 0;
+	font-family: inherit;
+	cursor: pointer;
+}

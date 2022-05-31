@@ -57,8 +57,10 @@ import ebayman from '../assets/ebayman.jpeg';
 import llc from '../assets/llc.jpg';
 import ltd from '../assets/ltd.jpg';
 import footerlogo from '../assets/logofooter.svg';
+import modalimg from '../assets/modalimg.jpg';
 
 const images = {
+	modalimg,
 	footerlogo,
 	llc,
 	ltd,
