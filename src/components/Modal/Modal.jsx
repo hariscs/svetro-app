@@ -1,7 +1,7 @@
 import styles from './Modal.module.css';
 import { images } from '../../constants';
 
-const Modal = () => {
+const Modal = ({ setModal }) => {
 	return (
 		<div className={styles.modal__container}>
 			<div className={styles.modal}>
@@ -32,7 +32,12 @@ const Modal = () => {
 							<input type='hidden' name='_next' value='https://svetro.com/' />
 							<button type='submit'>Send</button>
 						</form>
-						<button className={styles.modal__btn}>No Thanks</button>
+						<button
+							className={styles.modal__btn}
+							onClick={() => setModal(false)}
+						>
+							No Thanks
+						</button>
 					</div>
 				</div>
 			</div>

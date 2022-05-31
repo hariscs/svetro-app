@@ -15,7 +15,14 @@ import { Modal } from '../../components';
 
 const SingleBlog = () => {
 	const [singleBlog, setSingleBlog] = useState(null);
+	const [showModal, setShowModal] = useState(false);
 	const { slug } = useParams();
+
+	useEffect(() => {
+		setTimeout(() => {
+			setShowModal(true);
+		}, 2000);
+	}, []);
 
 	useEffect(() => {
 		const query = `*[slug.current=="${slug}"]{
@@ -128,7 +135,7 @@ const SingleBlog = () => {
 					</div>
 				</aside>
 			</div>
-			<Modal />
+			{showModal && <Modal setModal={setShowModal} />}
 		</main>
 	);
 };
