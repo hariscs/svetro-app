@@ -42,7 +42,7 @@ const serviceData = [
 		title: 'Company Formation ',
 		subtitle:
 			'Form a company with Us with the most reliable and acknowledge track record of authentic in time delivery.',
-		link: '/other',
+		link: '/fba',
 	},
 	{
 		id: 6,
@@ -50,7 +50,7 @@ const serviceData = [
 		title: 'Website development',
 		subtitle:
 			'Develop websites with today’s advance technologies of coding and programming languages, our team offers',
-		link: '/other',
+		link: '/fba',
 	},
 ];
 
