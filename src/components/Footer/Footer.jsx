@@ -100,7 +100,7 @@ const Footer = () => {
 							<a href='mailto:info@svetro.com'>info@svetro.com</a>
 							<a href='callto:+12109533347'>+1 (210) 953 3347</a>
 							<div className={styles.address}>
-								2186 Jackson Keller Ste 1215,
+								2186 Jackson Keller Ste 1215
 								San Antonio,TX 78213
 								
 <br/>United States
