@@ -98,10 +98,11 @@ const Footer = () => {
 						<h3 className={styles.col__title}>Contact</h3>
 						<div className={styles.flex}>
 							<a href='mailto:info@svetro.com'>info@svetro.com</a>
-							<a href='callto:+447915601167'>+44 (791) 560 1167</a>
+							<a href='callto:+12109533347'>+1 (210) 953 3347</a>
 							<div className={styles.address}>
-								Plaza 25A, Khayaban-e-Iqbal, Sector XX DHA Phase 3, Lahore,
-								Punjab 54000, Pakistan
+								2186 Jackson Keller Ste 1215,
+								San Antonio,TX 78213
+								United States
 							</div>
 						</div>
 					</div>
