@@ -29,7 +29,13 @@ const faqs = [
 	
 	{
 		question: 'What is an Amazon Private Label?',
-		answer: 'Amazon Accelerator allows manufacturers to launch brands and innovative products exclusively in Amazon store, paving the way for them to become Amazon Private Brand or Private Label suppliers. Suppliers can create and trademark their own Amazon-exclusive brand, which will only be available on Amazon. The advantages include the ability to test new products and receive immediate feedback, potential entry into Amazon Private Brands, brand protection, marketing services, onboarding support, trend insights, and analytics tools.'
+		answer: 
+		
+		'Amazon Accelerator allows manufacturers to launch brands and innovative products exclusively in Amazon store,
+		paving the way for them to become Amazon Private Brand or Private Label suppliers. Suppliers can create and trademark
+		their own Amazon-exclusive brand, which will only be available on Amazon. The advantages include the ability to test
+		new products and receive immediate feedback, potential entry into Amazon Private Brands, brand protection, marketing services,
+		onboarding support, trend insights, and analytics tools.'
 		
 		},
 ];
