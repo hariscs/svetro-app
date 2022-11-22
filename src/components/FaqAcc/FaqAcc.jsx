@@ -64,7 +64,7 @@ const faqs = [
 	
 	{
 		question: 'What do you require to work with Svetro?'
-		answer: 'We accept a minimum investment of $5000 to begin with us, whether it is Amazon Private Label, Amazon Wholesale FBA, or another business model.
+		answer: 'We accept a minimum investment of $5000 to begin with us, whether it is Amazon Private Label, Amazon Wholesale FBA, or another business model.'
 	},
 	
 	{
