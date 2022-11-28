@@ -18,7 +18,7 @@ const Stats = () => {
 				>
 					<div className={styles.stats__info}>
 						<h2 className={styles.stats__title}>
-							"We aren't just chatting here. Statistics support our claims".
+							We are not just chatting here. Statistics support our claims.
 						</h2>
 					</div>
 					<div className={styles.stats__cards}>
@@ -27,7 +27,7 @@ const Stats = () => {
 							<p className={styles.stats__cardInfo}>Satisfied Clients</p>
 						</div>
 						<div className={styles.stats__card}>
-							<h3 className={styles.stats__cardTitle}>'$2 Million+'</h3>
+							<h3 className={styles.stats__cardTitle}>$2 Million+</h3>
 							<p className={styles.stats__cardInfo}>Annual Revenue</p>
 						</div>
 					</div>
