@@ -43,9 +43,10 @@ const Form = () => {
 					<div className={styles.flex__info}>
 						<h2 className={styles.info__title}>Get In Touch</h2>
 						<p className={styles.info__subtitle}>
-							Tell us just a bit about who you are and what exactly you are
-							looking for. You can also schedule a time to come by the office
-							and have a chat. Our doors are always open!
+							Tell us a little bit about yourself and what you are specifically looking for.
+							You can also arrange a time to stop by the office and speak with our representative.
+							Our doors are always open!
+								
 						</p>
 
 						<div className={styles.iconFlex}>
