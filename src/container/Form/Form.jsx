@@ -117,19 +117,19 @@ const Form = () => {
 								name='email'
 								id='email'
 								required
-								placeholder='example@email.com'
+								placeholder='John@gmail.com'
 							/>
 							<label htmlFor='call'>Phone No.</label>
 							<input
 								type='tel'
 								name='number'
 								id='call'
-								placeholder='+92 311 123 4567'
+								placeholder='+1 210 123 4567'
 							/>
 
 							<label htmlFor='date'>Schedule a Date</label>
 							<input type='date' name='date' id='date' required />
-							<label htmlFor='time'>Schedule a Time, PK (GMT+5)</label>
+							<label htmlFor='time'>Schedule a Time, US (UTC-08:00)</label>
 							<input type='time' name='time' id='time' required />
 							<label htmlFor='message'>Message</label>
 							<textarea
