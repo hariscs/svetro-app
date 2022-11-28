@@ -68,6 +68,12 @@ const faqs = [
     answer:
       "Yes, you can form an LLC in the United States from anywhere in the world if you have your country's passport and driver's license. Please contact us so that we can assist you further.",
   },
+  
+    {
+    question: 'Which eCommerce marketplace is the best place to start?',
+    answer:
+      "When we compare different marketplaces, we can easily see that Amazon has 157.4 million Prime Members and a yearly revenue of $502.1 billion.",
+  },
 ]
 
 const Accordion = () => {
