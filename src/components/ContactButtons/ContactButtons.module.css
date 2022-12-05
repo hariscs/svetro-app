@@ -7,7 +7,7 @@
 }
 
 .buttons:hover::before {
-	content: 'Hi, How may we help you?';
+	content: 'Chat With Us';
 	position: absolute;
 	width: 149px;
 	height: 57px;
