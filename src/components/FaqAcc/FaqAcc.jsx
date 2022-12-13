@@ -11,7 +11,7 @@ const faqs = [
   {
     question: 'How much budget we need for Starting Amazon Business?',
     answer:
-      'It depends on the marketplace competition in which the business will be established.',
+      'It's difficult to provide an exact answer to this question, as the cost of starting an Amazon business can vary greatly depending on a number of factors, such as the types of products you plan to sell and the scale of your operation. In general, however, you will need to have some money set aside to cover the cost of creating and stocking your inventory, as well as any fees associated with selling on Amazon. In addition to the cost of creating and stocking your inventory, there are several other expenses you will need to consider when starting an Amazon business. For example, you will need to pay a monthly subscription fee to sell on Amazon, as well as fees for each item you sell. You may also need to invest in marketing and advertising to help promote your products and drive sales.",
   },
   {
     question: 'How much time it takes to achieve ROI?',
