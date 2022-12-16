@@ -3,8 +3,7 @@
 	top: 80%;
 	right: 2%;
 	box-shadow: 0 3px 6px rgba(0, 0, 0, .2);
-    	border-radius: 100hv;
-   	Background-color: Black 
+    	border-radius: 100hv; 
 }
 
 .buttons:hover::before {
