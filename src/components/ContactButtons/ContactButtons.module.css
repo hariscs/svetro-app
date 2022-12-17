@@ -9,7 +9,7 @@
 }
 
 .buttons:hover::before {
-	content: 'Chat With Now';
+	content: 'Chat With Us';
 	position: absolute;
 	width: 180px;
 	height: 35px;
@@ -18,7 +18,7 @@
 	padding: 1rem;
 	font-size: 1.2rem;
 	color: var(--clr-white);
-	background: var(--clr-darkblue);
+	background: var(--clr-light-blue);
 	border-radius: 20px;
 	z-index: 1;
 
