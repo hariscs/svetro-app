@@ -16,16 +16,14 @@
 	bottom: 15%;
 	right: 107%;
 	padding: 1rem;
-	font-size: 1.2rem;
+	font-size: 1.0rem;
 	color: var(--clr-white);
 	background: var(--clr-light-blue);
 	border-radius: 20px;
 	z-index: 1;
 
 }
-.Content{
-	text-align: center;
-}
+
 
 .icon {
 	font-size: 4rem;
