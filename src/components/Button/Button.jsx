@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 const Button = ({ children, btnType }) => {
 	return (
-		<NavLink to='/contact' className={`btn ${btnType}`}>
+		<NavLink to='https://tidycal.com/svetro/book-a-meeting' className={`btn ${btnType}`}>
 			{children}
 		</NavLink>
 	);
