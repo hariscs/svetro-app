@@ -9,7 +9,7 @@
 }
 
 .buttons:hover::before {
-	content: 'Chat Now';
+	content: 'Chat With Now';
 	position: absolute;
 	width: 149px;
 	height: 57px;
@@ -19,7 +19,7 @@
 	font-size: 1.2rem;
 	color: var(--clr-white);
 	background: var(--clr-light-blue);
-	border-radius: 10px;
+	border-radius: 20px;
 	z-index: 1;
 }
 
