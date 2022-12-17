@@ -18,10 +18,9 @@
 	padding: 1rem;
 	font-size: 1.2rem;
 	color: var(--clr-white);
-	background: var(--clr-light-blue);
+	background: var(--clr-darkblue);
 	border-radius: 20px;
 	z-index: 1;
-	text-align: right;
 
 
 }
