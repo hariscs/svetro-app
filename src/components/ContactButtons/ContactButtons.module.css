@@ -10,10 +10,10 @@
 
 .buttons:hover::before {
 	content: 'Chat With Now';
-	position: absolute;
-	width: 149px;
-	height: 57px;
-	bottom: 15%;
+	position: fixed;
+	width: 180px;
+	height: 47px;
+	bottom: 12%;
 	right: 107%;
 	padding: 1rem;
 	font-size: 1.2rem;
