@@ -11,11 +11,11 @@
 .buttons:hover::before {
 	content: 'Chat With Us';
 	position: absolute;
-	width: 180px;
+	width: 170px;
 	height: 35px;
 	bottom: 18%;
 	right: 100%;
-	padding: 1rem;
+	padding: 5rem;
 	font-size: 1.2rem;
 	color: var(--clr-white);
 	background: var(--clr-light-blue);
