@@ -13,11 +13,10 @@
 	position: absolute;
 	width: 170px;
 	height: 35px;
-	bottom: 10%;
-	right: 100%;
+	bottom: 15%;
+	right: 107%;
 	padding: 1rem;
 	font-size: 1.2rem;
-	font-
 	color: var(--clr-white);
 	background: var(--clr-light-blue);
 	border-radius: 20px;
