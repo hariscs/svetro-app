@@ -1,10 +1,10 @@
-import { NavLink } from 'react-router-dom';
+import React from 'react';
 
 const Button = ({ children, btnType }) => {
 	return (
-		<NavLink to='https://tidycal.com/svetro/book-a-meeting' className={`btn ${btnType}`}>
+		<a href='https://tidycal.com/svetro/book-a-meeting' className={`btn ${btnType}`}>
 			{children}
-		</NavLink>
+		</a>
 	);
 };
 
