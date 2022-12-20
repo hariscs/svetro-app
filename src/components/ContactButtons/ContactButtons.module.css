@@ -12,7 +12,7 @@
   content: 'Chat With Us';
   position: absolute;
   width: 170px;
-  height: 47px;
+  height: 42px;
   bottom: 15%;
   right: 107%;
   padding: 1rem;
@@ -22,7 +22,7 @@
   border-radius: 20px;
   z-index: 1;
   text-align: center; /* add this property to center the text */
-  line-height: center; /* add this property to vertically center the text */
+  line-height: 40px; /* add this property to vertically center the text */
 }
 
 .icon {
