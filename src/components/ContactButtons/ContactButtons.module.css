@@ -9,21 +9,21 @@
 }
 
 .buttons:hover::before {
-	content: 'Chat With Us';
-	position: absolute;
-	width: 170px;
-	height: 47px;
-	bottom: 15%;
-	right: 107%;
-	padding: 1rem;
-	font-size: 1.2rem;
-	color: var(--clr-white);
-	background: var(--clr-light-blue);
-	border-radius: 20px;
-	z-index: 1;
-
+  content: 'Chat With Us';
+  position: absolute;
+  width: 170px;
+  height: 47px;
+  bottom: 15%;
+  right: 107%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: var(--clr-white);
+  background: var(--clr-light-blue);
+  border-radius: 20px;
+  z-index: 1;
+  text-align: center; /* add this property to center the text */
+  line-height: 47px; /* add this property to vertically center the text */
 }
-
 
 .icon {
 	font-size: 4rem;
