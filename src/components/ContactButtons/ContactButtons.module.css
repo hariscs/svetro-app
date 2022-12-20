@@ -21,9 +21,11 @@
   background: var(--clr-light-blue);
   border-radius: 20px;
   z-index: 1;
-  text-align: center; /* add this property to center the text */
-  line-height: 47px; /* add this property to vertically center the text */
+  text-align: center; /* Add this line to center the text */
+
+
 }
+
 
 .icon {
 	font-size: 4rem;
