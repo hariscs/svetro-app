@@ -27,16 +27,16 @@
   background: var(--clr-light-blue);
   border-radius: 20px;
   z-index: 1;
-  display: flex; /* Add this line to make the element a flex container */
-  align-items: center; /* Add this line to center the element vertically */
-  justify-content: center; /* Add this line to center the element horizontally */
-  animation: typing 3s linear infinite; /* Add this line to apply the typing animation */
+  /* Add the following properties for the typing animation */
+  animation: typing 2s linear infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid var(--clr-light-blue);
 }
 
-.buttons:hover::before::after {
-  content: '_';
-  margin-left: 5px;
-  animation: typing 3s linear infinite; /* Add this line to apply the typing animation to the pointer */
+@keyframes typing {
+  0% { width: 0; }
+  100% { width: 100%; }
 }
 
 
