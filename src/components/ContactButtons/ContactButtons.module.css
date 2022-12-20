@@ -22,7 +22,7 @@
   border-radius: 20px;
   z-index: 1;
   text-align: center; /* add this property to center the text */
-  line-height: 47px; /* add this property to vertically center the text */
+  line-height: 60px; /* add this property to vertically center the text */
 }
 
 .icon {
