@@ -16,7 +16,7 @@ export function OurPartners() {
       <h2 className={styles.partnersHeading}>Our Partners</h2>
       <div className={styles.flex}>
         {data.map((img) => (
-          <div className={styles.imgContainer}>
+          <div key={img.id} className={styles.imgContainer}>
             <img src={img.img} alt='...' />
           </div>
         ))}

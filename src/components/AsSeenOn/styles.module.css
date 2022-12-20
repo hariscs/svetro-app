@@ -1,0 +1,20 @@
+.logoContainer {
+  text-align: center;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: end;
+  margin: 2rem 0;
+}
+
+.logos img {
+  width: 100px;
+  filter: grayscale(100%);
+}
+.title {
+  text-align: center;
+}

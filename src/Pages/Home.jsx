@@ -12,6 +12,7 @@ import Faq from '../container/Faq/Faq'
 import { images } from '../constants'
 import { motion } from 'framer-motion'
 import { OurPartners } from '../components/OurPartners'
+import { AsSeenOn } from '../components/AsSeenOn'
 const home = {
   title: 'Build your online asset with Svetro!',
   subtitle:
@@ -33,6 +34,7 @@ const Home = () => {
         btnText={home.btntext}
         img={home.img}
       />
+      <AsSeenOn />
       <OurPartners />
       <TrackRecord />
       <ServiceSection />
