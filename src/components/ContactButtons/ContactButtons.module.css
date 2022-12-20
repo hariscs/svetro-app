@@ -8,6 +8,7 @@
 	height: 60px;
 }
 
+
 .buttons:hover::before {
   content: 'Chat With Us';
   position: absolute;
@@ -21,7 +22,9 @@
   background: var(--clr-light-blue);
   border-radius: 20px;
   z-index: 1;
-  text-align: center; /* Add this line to center the text */
+  display: flex; /* Add this line to make the element a flex container */
+  align-items: center; /* Add this line to center the element vertically */
+  justify-content: center; /* Add this line to center the element horizontally */
 
 
 }
