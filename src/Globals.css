@@ -155,6 +155,7 @@ section {
 .answer {
   background-color: #f7f7f7;
   padding: 20px;
+  text-align: left;
 }
 
 /* activate toggle */
