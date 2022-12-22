@@ -3,13 +3,13 @@
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .partnersHeading {
   text-align: center;
   margin: 3rem 0;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .imgContainer {

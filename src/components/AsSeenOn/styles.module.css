@@ -5,9 +5,9 @@
 .logos {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
   flex-wrap: wrap;
-  align-items: end;
+  align-items: flex-end;
   margin: 2rem 0;
 }
 
@@ -15,6 +15,8 @@
   width: 100px;
   filter: grayscale(100%);
 }
+
 .title {
   text-align: center;
+  font-weight: bold;
 }

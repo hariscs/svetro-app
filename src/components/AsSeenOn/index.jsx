@@ -2,7 +2,7 @@ import styles from './styles.module.css'
 export function AsSeenOn() {
   return (
     <div>
-      <p className={styles.title}>AS SEEN ON</p>
+      <p className={styles.title}>Featured On</p>
       <div className={styles.logoContainer}>
         <div className={styles.logoContainer}>
           <div className={styles.logos}>

@@ -35,8 +35,8 @@ const Home = () => {
         img={home.img}
       />
       <AsSeenOn />
-      <OurPartners />
       <TrackRecord />
+      <OurPartners />
       <ServiceSection />
       <Stats />
       <Client />
