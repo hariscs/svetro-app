@@ -105,8 +105,9 @@ const Footer = () => {
 								San Antonio,TX 78213
 								<br/>United States
 								</div>
-<div className={styles.address}>
-							C 25, Sector XX, DHA Phase 3, Lahore, PJ 5400, Pakistan
+							<div className={styles.address}>
+							C 25, Sector XX, DHA Phase 3, Lahore, PJ 54810
+							<br/>Pakistan
 						</div>
 						</div>
 					</div>
