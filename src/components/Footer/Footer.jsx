@@ -104,8 +104,10 @@ const Footer = () => {
 								2186 Jackson Keller Rd Ste 1215
 								San Antonio,TX 78213
 								<br/>United States
-								
-							</div>
+								</div>
+<div className={styles.address}>
+							C 25, Sector XX, DHA Phase 3, Lahore, PJ 5400, Pakistan
+						</div>
 						</div>
 					</div>
 				</div>
