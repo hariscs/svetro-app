@@ -99,16 +99,13 @@ const Footer = () => {
 						<div className={styles.flex}>
 							<a href='mailto:info@svetro.com'>info@svetro.com</a>
 							<a href='callto:+12109533347'>+1 (210) 953 3347</a>
-							<a href='callto:+923247792681'>+92 (324) 779 2681</a>
+							
 							<div className={styles.address}>
 								2186 Jackson Keller Rd Ste 1215
 								San Antonio,TX 78213
 								<br/>United States
 								</div>
-							<div className={styles.address}>
-							C 25, Sector XX, DHA Phase 3, Lahore, PJ 54810
-							<br/>Pakistan
-						</div>
+							
 						</div>
 					</div>
 				</div>
